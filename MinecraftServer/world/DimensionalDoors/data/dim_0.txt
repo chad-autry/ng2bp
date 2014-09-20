@@ -1,0 +1,19 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 0,
+  "IsDungeon": false,
+  "IsFilled": false,
+  "Depth": 0,
+  "PackDepth": 0,
+  "ParentID": 0,
+  "RootID": 0,
+  "Origin": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Orientation": 0,
+  "ChildIDs": [],
+  "Links": [],
+  "Tails": []
+}

@@ -1,0 +1,122 @@
+2014-09-20 10:31:05 [INFO] Starting minecraft server version 1.6.4
+2014-09-20 10:31:07 [SEVERE] Encountered an unexpected exception MissingModsException
+cpw.mods.fml.common.MissingModsException
+	at cpw.mods.fml.common.Loader.sortModList(Loader.java:228)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:491)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:350)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:69)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445)
+	at net.minecraft.server.ThreadMinecraftServer.run(SourceFile:583)
+2014-09-20 10:31:07 [SEVERE] This crash report has been saved to: E:\MinecraftServer\.\crash-reports\crash-2014-09-20_10.31.07-server.txt
+2014-09-20 10:33:06 [INFO] Stopping server
+2014-09-20 10:33:06 [INFO] Saving worlds
+2014-09-20 10:33:06 [INFO] Stopping server
+2014-09-20 10:34:03 [INFO] Starting minecraft server version 1.6.4
+2014-09-20 10:34:07 [SEVERE] Encountered an unexpected exception NoClassDefFoundError
+java.lang.NoClassDefFoundError: net/minecraft/client/renderer/EntityRenderer
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at cpw.mods.fml.common.ModClassLoader.loadBaseModClass(ModClassLoader.java:104)
+	at cpw.mods.fml.common.modloader.ModLoaderModContainer.constructMod(ModLoaderModContainer.java:484)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:201)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
+	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:112)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:511)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:350)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:69)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445)
+	at net.minecraft.server.ThreadMinecraftServer.run(SourceFile:583)
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.renderer.EntityRenderer
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:186)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 31 more
+Caused by: java.lang.RuntimeException: Attempted to load class bfe for invalid side SERVER
+	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:50)
+	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:274)
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:172)
+	... 33 more
+2014-09-20 10:34:07 [SEVERE] This crash report has been saved to: E:\MinecraftServer\.\crash-reports\crash-2014-09-20_10.34.07-server.txt
+2014-09-20 10:35:00 [INFO] Starting minecraft server version 1.6.4
+2014-09-20 10:35:11 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-20 10:35:11 [INFO] Loading properties
+2014-09-20 10:35:11 [INFO] Default game type: SURVIVAL
+2014-09-20 10:35:11 [INFO] Generating keypair
+2014-09-20 10:35:11 [INFO] Starting Minecraft server on *:25565
+2014-09-20 10:35:17 [INFO] Preparing level "world"
+2014-09-20 10:35:18 [INFO] Preparing start region for level 0
+2014-09-20 10:35:19 [INFO] Preparing spawn area: 5%
+2014-09-20 10:35:20 [INFO] Preparing spawn area: 10%
+2014-09-20 10:35:21 [INFO] Preparing spawn area: 26%
+2014-09-20 10:35:22 [INFO] Preparing spawn area: 41%
+2014-09-20 10:35:23 [INFO] Preparing spawn area: 55%
+2014-09-20 10:35:24 [INFO] Preparing spawn area: 65%
+2014-09-20 10:35:25 [INFO] Preparing spawn area: 79%
+2014-09-20 10:35:26 [INFO] Preparing spawn area: 88%
+2014-09-20 10:35:27 [INFO] Done (9.980s)! For help, type "help" or "?"
+2014-09-20 10:35:27 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
+2014-09-20 10:54:33 [INFO] Stopping server
+2014-09-20 10:54:33 [INFO] Saving players
+2014-09-20 10:54:33 [INFO] Saving worlds
+2014-09-20 10:54:33 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-20 10:54:33 [INFO] Closing listening thread
+2014-09-20 10:54:33 [INFO] Saving chunks for level 'world'/Nether
+2014-09-20 10:54:33 [INFO] Stopping server
+2014-09-20 10:54:47 [INFO] Starting minecraft server version 1.6.4
+2014-09-20 10:54:59 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-20 10:54:59 [INFO] Loading properties
+2014-09-20 10:54:59 [INFO] Default game type: SURVIVAL
+2014-09-20 10:54:59 [INFO] Generating keypair
+2014-09-20 10:54:59 [INFO] Starting Minecraft server on *:25565
+2014-09-20 10:55:04 [INFO] Preparing level "world"
+2014-09-20 10:55:05 [INFO] Preparing start region for level 0
+2014-09-20 10:55:06 [INFO] Preparing spawn area: 6%
+2014-09-20 10:55:07 [INFO] Preparing spawn area: 14%
+2014-09-20 10:55:08 [INFO] Preparing spawn area: 30%
+2014-09-20 10:55:09 [INFO] Preparing spawn area: 44%
+2014-09-20 10:55:10 [INFO] Preparing spawn area: 59%
+2014-09-20 10:55:11 [INFO] Preparing spawn area: 73%
+2014-09-20 10:55:12 [INFO] Preparing spawn area: 86%
+2014-09-20 10:55:13 [INFO] Preparing spawn area: 93%
+2014-09-20 10:55:14 [INFO] Done (9.697s)! For help, type "help" or "?"
+2014-09-20 10:55:14 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
+2014-09-20 10:58:18 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-20 10:58:21 [INFO] ChadTavis[/192.168.1.145:54839] logged in with entity id 5059 at (213.5, 72.0, 154.5)
+2014-09-20 10:58:21 [INFO] ChadTavis joined the game
+2014-09-20 11:00:08 [INFO] [ChadTavis: Set own game mode to Survival Mode]
+2014-09-20 11:00:14 [INFO] [ChadTavis: Set own game mode to Creative Mode]
+2014-09-20 11:06:04 [INFO] [ChadTavis: Set own game mode to Creative Mode]
+2014-09-20 11:06:15 [INFO] [ChadTavis: Set own game mode to Survival Mode]
+2014-09-20 11:07:01 [INFO] [ChadTavis: Set own game mode to Survival Mode]
+2014-09-20 11:07:07 [INFO] [ChadTavis: Set own game mode to Creative Mode]
+2014-09-20 11:09:51 [INFO] [ChadTavis: Set own game mode to Survival Mode]
+2014-09-20 11:10:01 [INFO] [ChadTavis: Set own game mode to Creative Mode]
+2014-09-20 11:21:17 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-20 11:21:17 [INFO] ChadTavis left the game
+2014-09-20 12:32:28 [INFO] Stopping server
+2014-09-20 12:32:28 [INFO] Saving players
+2014-09-20 12:32:28 [INFO] Saving worlds
+2014-09-20 12:32:28 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-20 12:32:28 [INFO] Closing listening thread
+2014-09-20 12:32:28 [INFO] Saving chunks for level 'world'/Nether
+2014-09-20 12:32:28 [INFO] Stopping server
