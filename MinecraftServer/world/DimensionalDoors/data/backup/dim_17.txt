@@ -1,0 +1,89 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 17,
+  "IsDungeon": true,
+  "IsFilled": true,
+  "Depth": 12,
+  "PackDepth": 12,
+  "ParentID": 16,
+  "RootID": 0,
+  "DungeonData": {
+    "Weight": 100,
+    "IsOpen": true,
+    "IsInternal": true,
+    "SchematicPath": "/schematics/ruins/complexHall_mediumPillarStairs_open_100.schematic",
+    "SchematicName": "complexHall_mediumPillarStairs_open_100",
+    "DungeonTypeName": "COMPLEXHALL",
+    "DungeonPackName": "RUINS"
+  },
+  "Origin": {
+    "x": 2048,
+    "y": 77,
+    "z": 807
+  },
+  "Orientation": 0,
+  "ChildIDs": [],
+  "Links": [
+    {
+      "source": {
+        "x": 2048,
+        "y": 77,
+        "z": 807,
+        "dimension": 17
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": 1301,
+          "y": 77,
+          "z": 880,
+          "dimension": 16
+        },
+        "linkType": 7
+      },
+      "orientation": 2,
+      "children": []
+    },
+    {
+      "source": {
+        "x": 2061,
+        "y": 91,
+        "z": 805,
+        "dimension": 17
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": []
+    },
+    {
+      "source": {
+        "x": 2061,
+        "y": 91,
+        "z": 809,
+        "dimension": 17
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 4
+      },
+      "orientation": 0,
+      "children": []
+    }
+  ],
+  "Tails": []
+}

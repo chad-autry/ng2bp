@@ -1,0 +1,79 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 25,
+  "IsDungeon": true,
+  "IsFilled": true,
+  "Depth": 5,
+  "PackDepth": 5,
+  "ParentID": 24,
+  "RootID": 0,
+  "DungeonData": {
+    "Weight": 100,
+    "IsOpen": false,
+    "IsInternal": true,
+    "SchematicPath": "/schematics/ruins/simpleHall_simpleStairsDown_closed_100.schematic",
+    "SchematicName": "simpleHall_simpleStairsDown_closed_100",
+    "DungeonTypeName": "SIMPLEHALL",
+    "DungeonPackName": "RUINS"
+  },
+  "Origin": {
+    "x": 4889,
+    "y": 112,
+    "z": -838
+  },
+  "Orientation": 0,
+  "ChildIDs": [
+    26
+  ],
+  "Links": [
+    {
+      "source": {
+        "x": 4889,
+        "y": 112,
+        "z": -838,
+        "dimension": 25
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": 4378,
+          "y": 112,
+          "z": -885,
+          "dimension": 24
+        },
+        "linkType": 7
+      },
+      "orientation": 2,
+      "children": []
+    },
+    {
+      "source": {
+        "x": 4916,
+        "y": 97,
+        "z": -838,
+        "dimension": 25
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": 5009,
+          "y": 97,
+          "z": -878,
+          "dimension": 26
+        },
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": []
+    }
+  ],
+  "Tails": []
+}

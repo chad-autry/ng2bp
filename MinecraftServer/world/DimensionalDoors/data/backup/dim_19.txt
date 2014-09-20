@@ -1,0 +1,107 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 19,
+  "IsDungeon": true,
+  "IsFilled": true,
+  "Depth": 14,
+  "PackDepth": 14,
+  "ParentID": 18,
+  "RootID": 0,
+  "DungeonData": {
+    "Weight": 100,
+    "IsOpen": false,
+    "IsInternal": true,
+    "SchematicPath": "/schematics/ruins/maze_smallMaze1_closed_100.schematic",
+    "SchematicName": "maze_smallMaze1_closed_100",
+    "DungeonTypeName": "MAZE",
+    "DungeonPackName": "RUINS"
+  },
+  "Origin": {
+    "x": 4955,
+    "y": 91,
+    "z": 868
+  },
+  "Orientation": 0,
+  "ChildIDs": [],
+  "Links": [
+    {
+      "source": {
+        "x": 4955,
+        "y": 91,
+        "z": 868,
+        "dimension": 19
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": 3514,
+          "y": 91,
+          "z": 818,
+          "dimension": 18
+        },
+        "linkType": 7
+      },
+      "orientation": 2,
+      "children": []
+    },
+    {
+      "source": {
+        "x": 4983,
+        "y": 91,
+        "z": 869,
+        "dimension": 19
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": []
+    },
+    {
+      "source": {
+        "x": 4976,
+        "y": 91,
+        "z": 863,
+        "dimension": 19
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 3,
+      "children": []
+    },
+    {
+      "source": {
+        "x": 4972,
+        "y": 91,
+        "z": 882,
+        "dimension": 19
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 1,
+      "children": []
+    }
+  ],
+  "Tails": []
+}

@@ -1,0 +1,115 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 16,
+  "IsDungeon": true,
+  "IsFilled": true,
+  "Depth": 11,
+  "PackDepth": 11,
+  "ParentID": 15,
+  "RootID": 0,
+  "DungeonData": {
+    "Weight": 75,
+    "IsOpen": false,
+    "IsInternal": true,
+    "SchematicPath": "/schematics/ruins/ComplexHall_Balgor0-CrumbledHall_Closed_75.schematic",
+    "SchematicName": "ComplexHall_Balgor0-CrumbledHall_Closed_75",
+    "DungeonTypeName": "COMPLEXHALL",
+    "DungeonPackName": "RUINS"
+  },
+  "Origin": {
+    "x": 1272,
+    "y": 77,
+    "z": 880
+  },
+  "Orientation": 0,
+  "ChildIDs": [
+    17
+  ],
+  "Links": [
+    {
+      "source": {
+        "x": 1272,
+        "y": 77,
+        "z": 880,
+        "dimension": 16
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": 473,
+          "y": 77,
+          "z": 828,
+          "dimension": 15
+        },
+        "linkType": 7
+      },
+      "orientation": 2,
+      "children": []
+    },
+    {
+      "source": {
+        "x": 1286,
+        "y": 77,
+        "z": 895,
+        "dimension": 16
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 1,
+      "children": []
+    },
+    {
+      "source": {
+        "x": 1286,
+        "y": 77,
+        "z": 865,
+        "dimension": 16
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 3,
+      "children": []
+    },
+    {
+      "source": {
+        "x": 1301,
+        "y": 77,
+        "z": 880,
+        "dimension": 16
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": 2048,
+          "y": 77,
+          "z": 807,
+          "dimension": 17
+        },
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": []
+    }
+  ],
+  "Tails": []
+}

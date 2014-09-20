@@ -1,0 +1,71 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 24,
+  "IsDungeon": true,
+  "IsFilled": true,
+  "Depth": 4,
+  "PackDepth": 4,
+  "ParentID": 23,
+  "RootID": 0,
+  "DungeonData": {
+    "Weight": 100,
+    "IsOpen": true,
+    "IsInternal": true,
+    "SchematicPath": "/schematics/ruins/SimpleHall_SK-SpiralHallway_Open_100.schematic",
+    "SchematicName": "SimpleHall_SK-SpiralHallway_Open_100",
+    "DungeonTypeName": "SIMPLEHALL",
+    "DungeonPackName": "RUINS"
+  },
+  "Origin": {
+    "x": 4347,
+    "y": 108,
+    "z": -885
+  },
+  "Orientation": 0,
+  "ChildIDs": [],
+  "Links": [
+    {
+      "source": {
+        "x": 4347,
+        "y": 108,
+        "z": -885,
+        "dimension": 24
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": 4216,
+          "y": 108,
+          "z": -871,
+          "dimension": 23
+        },
+        "linkType": 7
+      },
+      "orientation": 2,
+      "children": []
+    },
+    {
+      "source": {
+        "x": 4378,
+        "y": 112,
+        "z": -885,
+        "dimension": 24
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": []
+    }
+  ],
+  "Tails": []
+}

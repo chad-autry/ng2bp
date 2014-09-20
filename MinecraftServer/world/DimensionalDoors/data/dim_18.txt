@@ -1,0 +1,79 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 18,
+  "IsDungeon": true,
+  "IsFilled": true,
+  "Depth": 13,
+  "PackDepth": 13,
+  "ParentID": 17,
+  "RootID": 0,
+  "DungeonData": {
+    "Weight": 150,
+    "IsOpen": false,
+    "IsInternal": true,
+    "SchematicPath": "/schematics/ruins/trap_pistonFloorHall_closed_150.schematic",
+    "SchematicName": "trap_pistonFloorHall_closed_150",
+    "DungeonTypeName": "TRAP",
+    "DungeonPackName": "RUINS"
+  },
+  "Origin": {
+    "x": 3484,
+    "y": 91,
+    "z": 818
+  },
+  "Orientation": 0,
+  "ChildIDs": [
+    19
+  ],
+  "Links": [
+    {
+      "source": {
+        "x": 3484,
+        "y": 91,
+        "z": 818,
+        "dimension": 18
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": 2061,
+          "y": 91,
+          "z": 805,
+          "dimension": 17
+        },
+        "linkType": 7
+      },
+      "orientation": 2,
+      "children": []
+    },
+    {
+      "source": {
+        "x": 3514,
+        "y": 91,
+        "z": 818,
+        "dimension": 18
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": 4955,
+          "y": 91,
+          "z": 868,
+          "dimension": 19
+        },
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": []
+    }
+  ],
+  "Tails": []
+}

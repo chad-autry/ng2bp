@@ -1,0 +1,71 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 5,
+  "IsDungeon": true,
+  "IsFilled": true,
+  "Depth": 4,
+  "PackDepth": 4,
+  "ParentID": 4,
+  "RootID": 0,
+  "DungeonData": {
+    "Weight": 50,
+    "IsOpen": true,
+    "IsInternal": true,
+    "SchematicPath": "/schematics/ruins/Trap_SK-NicolesTower_Open_50.schematic",
+    "SchematicName": "Trap_SK-NicolesTower_Open_50",
+    "DungeonTypeName": "TRAP",
+    "DungeonPackName": "RUINS"
+  },
+  "Origin": {
+    "x": -1451,
+    "y": 68,
+    "z": 1586
+  },
+  "Orientation": 2,
+  "ChildIDs": [],
+  "Links": [
+    {
+      "source": {
+        "x": -1451,
+        "y": 68,
+        "z": 1586,
+        "dimension": 5
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -1015,
+          "y": 68,
+          "z": 1610,
+          "dimension": 4
+        },
+        "linkType": 7
+      },
+      "orientation": 0,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -1451,
+        "y": 100,
+        "z": 1586,
+        "dimension": 5
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": []
+    }
+  ],
+  "Tails": []
+}

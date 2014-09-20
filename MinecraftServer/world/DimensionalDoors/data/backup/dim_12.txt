@@ -1,0 +1,71 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 12,
+  "IsDungeon": true,
+  "IsFilled": true,
+  "Depth": 7,
+  "PackDepth": 7,
+  "ParentID": 11,
+  "RootID": 0,
+  "DungeonData": {
+    "Weight": 50,
+    "IsOpen": false,
+    "IsInternal": true,
+    "SchematicPath": "/schematics/ruins/Trap_SK-SimpleRightTrap_Closed_50.schematic",
+    "SchematicName": "Trap_SK-SimpleRightTrap_Closed_50",
+    "DungeonTypeName": "TRAP",
+    "DungeonPackName": "RUINS"
+  },
+  "Origin": {
+    "x": -1547,
+    "y": 88,
+    "z": 862
+  },
+  "Orientation": 3,
+  "ChildIDs": [],
+  "Links": [
+    {
+      "source": {
+        "x": -1547,
+        "y": 88,
+        "z": 862,
+        "dimension": 12
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -1545,
+          "y": 88,
+          "z": 1370,
+          "dimension": 11
+        },
+        "linkType": 7
+      },
+      "orientation": 1,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -1537,
+        "y": 88,
+        "z": 852,
+        "dimension": 12
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 0,
+      "children": []
+    }
+  ],
+  "Tails": []
+}
