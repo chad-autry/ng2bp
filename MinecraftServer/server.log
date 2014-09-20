@@ -120,3 +120,23 @@ Caused by: java.lang.RuntimeException: Attempted to load class bfe for invalid s
 2014-09-20 12:32:28 [INFO] Closing listening thread
 2014-09-20 12:32:28 [INFO] Saving chunks for level 'world'/Nether
 2014-09-20 12:32:28 [INFO] Stopping server
+2014-09-20 12:44:25 [INFO] Starting minecraft server version 1.6.4
+2014-09-20 12:44:35 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-20 12:44:35 [INFO] Loading properties
+2014-09-20 12:44:35 [INFO] Default game type: SURVIVAL
+2014-09-20 12:44:35 [INFO] Generating keypair
+2014-09-20 12:44:35 [INFO] Starting Minecraft server on *:25565
+2014-09-20 12:44:40 [INFO] Preparing level "world"
+2014-09-20 12:44:41 [INFO] Preparing start region for level 0
+2014-09-20 12:44:42 [INFO] Done (1.882s)! For help, type "help" or "?"
+2014-09-20 12:44:57 [INFO] Stopping server
+2014-09-20 12:44:57 [INFO] Saving players
+2014-09-20 12:44:57 [INFO] Saving worlds
+2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-20 12:44:57 [INFO] Closing listening thread
+2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/Nether
+2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/The End
+2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/Bedrock
+2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/Limbo
+2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/Underdark
+2014-09-20 12:44:57 [INFO] Stopping server
