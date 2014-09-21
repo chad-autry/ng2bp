@@ -22,7 +22,9 @@
     "z": 1585
   },
   "Orientation": 1,
-  "ChildIDs": [],
+  "ChildIDs": [
+    5
+  ],
   "Links": [
     {
       "source": {
@@ -115,6 +117,12 @@
         "z": -1
       },
       "tail": {
+        "destination": {
+          "x": -1451,
+          "y": 68,
+          "z": 1586,
+          "dimension": 5
+        },
         "linkType": 2
       },
       "orientation": 2,

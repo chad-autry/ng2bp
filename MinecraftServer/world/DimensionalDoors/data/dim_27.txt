@@ -1,0 +1,140 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 27,
+  "IsDungeon": false,
+  "IsFilled": true,
+  "Depth": 1,
+  "PackDepth": 0,
+  "ParentID": 0,
+  "RootID": 0,
+  "Origin": {
+    "x": -441,
+    "y": 65,
+    "z": 189
+  },
+  "Orientation": 1,
+  "ChildIDs": [],
+  "Links": [
+    {
+      "source": {
+        "x": -441,
+        "y": 65,
+        "z": 189,
+        "dimension": 27
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -441,
+          "y": 65,
+          "z": 189,
+          "dimension": 0
+        },
+        "linkType": 7
+      },
+      "orientation": 3,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -441,
+        "y": 73,
+        "z": 198,
+        "dimension": 27
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -441,
+          "y": 73,
+          "z": 199,
+          "dimension": 27
+        },
+        "linkType": 0
+      },
+      "orientation": 3,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -441,
+        "y": 73,
+        "z": 202,
+        "dimension": 27
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -441,
+          "y": 73,
+          "z": 198,
+          "dimension": 27
+        },
+        "linkType": 0
+      },
+      "orientation": 1,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -441,
+        "y": 73,
+        "z": 199,
+        "dimension": 27
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -441,
+          "y": 73,
+          "z": 198,
+          "dimension": 27
+        },
+        "linkType": 0
+      },
+      "orientation": 3,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -441,
+        "y": 73,
+        "z": 203,
+        "dimension": 27
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -441,
+          "y": 73,
+          "z": 199,
+          "dimension": 27
+        },
+        "linkType": 0
+      },
+      "orientation": 1,
+      "children": []
+    }
+  ],
+  "Tails": []
+}
