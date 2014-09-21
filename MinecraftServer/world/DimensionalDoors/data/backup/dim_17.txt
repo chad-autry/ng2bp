@@ -4,7 +4,7 @@
   "IsDungeon": true,
   "IsFilled": true,
   "Depth": 12,
-  "PackDepth": 12,
+  "PackDepth": 0,
   "ParentID": 16,
   "RootID": 0,
   "DungeonData": {

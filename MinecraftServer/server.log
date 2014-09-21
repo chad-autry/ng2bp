@@ -289,3 +289,76 @@ Caused by: java.lang.RuntimeException: Attempted to load class bfe for invalid s
 2014-09-20 20:25:25 [INFO] Saving chunks for level 'world'/Nether
 2014-09-20 20:25:25 [INFO] Saving chunks for level 'world'/PocketDim 27
 2014-09-20 20:25:25 [INFO] Stopping server
+2014-09-20 20:26:46 [INFO] Starting minecraft server version 1.6.4
+2014-09-20 20:26:57 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-20 20:26:57 [INFO] Loading properties
+2014-09-20 20:26:57 [INFO] Default game type: SURVIVAL
+2014-09-20 20:26:57 [INFO] Generating keypair
+2014-09-20 20:26:57 [INFO] Starting Minecraft server on *:25565
+2014-09-20 20:27:02 [INFO] Preparing level "world"
+2014-09-20 20:27:03 [INFO] Preparing start region for level 0
+2014-09-20 20:27:03 [INFO] Done (1.716s)! For help, type "help" or "?"
+2014-09-20 21:03:53 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-20 21:03:57 [INFO] ChadTavis[/192.168.1.145:58974] logged in with entity id 267 at (-440.5, 64.0, 188.5)
+2014-09-20 21:03:57 [INFO] ChadTavis joined the game
+2014-09-20 21:04:06 [WARNING] ChadTavis moved wrongly!
+2014-09-20 21:04:25 [WARNING] ChadTavis moved wrongly!
+2014-09-20 21:04:47 [WARNING] ChadTavis moved wrongly!
+2014-09-20 21:06:39 [WARNING] ChadTavis moved wrongly!
+2014-09-20 21:06:41 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-20 21:06:41 [INFO] ChadTavis left the game
+2014-09-21 05:57:58 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-21 05:58:01 [INFO] ChadTavis[/192.168.1.145:59877] logged in with entity id 17883030 at (-440.5, 64.0, 188.5)
+2014-09-21 05:58:01 [INFO] ChadTavis joined the game
+2014-09-21 05:58:19 [WARNING] ChadTavis moved wrongly!
+2014-09-21 06:04:46 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-09-21 06:06:05 [WARNING] ChadTavis moved wrongly!
+2014-09-21 06:19:35 [WARNING] ChadTavis moved wrongly!
+2014-09-21 06:21:52 [WARNING] ChadTavis moved wrongly!
+2014-09-21 06:26:10 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-21 06:26:10 [INFO] ChadTavis left the game
+2014-09-21 07:27:35 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-21 07:27:38 [INFO] ChadTavis[/192.168.1.145:60390] logged in with entity id 18104358 at (-438.52922252937356, 64.0, 186.8739378315699)
+2014-09-21 07:27:38 [INFO] ChadTavis joined the game
+2014-09-21 07:27:44 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:31:24 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:37:30 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:39:59 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:40:39 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:40:43 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:41:58 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:42:01 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:44:03 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:44:06 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:44:27 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:48:01 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:59:42 [WARNING] ChadTavis moved wrongly!
+2014-09-21 07:59:57 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:00:30 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:02:56 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:03:44 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:04:25 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:04:54 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:13:18 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:14:54 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:14:59 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:15:07 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:16:06 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:16:33 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:16:39 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:17:14 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:17:26 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:20:47 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:20:51 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:22:16 [WARNING] ChadTavis moved wrongly!
+2014-09-21 08:23:00 [WARNING] ChadTavis moved wrongly!
+2014-09-21 09:19:07 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-21 09:19:07 [INFO] ChadTavis left the game
+2014-09-21 09:19:14 [INFO] Stopping server
+2014-09-21 09:19:14 [INFO] Saving players
+2014-09-21 09:19:14 [INFO] Saving worlds
+2014-09-21 09:19:14 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-21 09:19:14 [INFO] Closing listening thread
+2014-09-21 09:19:14 [INFO] Saving chunks for level 'world'/Nether
+2014-09-21 09:19:14 [INFO] Saving chunks for level 'world'/PocketDim 27
+2014-09-21 09:19:14 [INFO] Stopping server

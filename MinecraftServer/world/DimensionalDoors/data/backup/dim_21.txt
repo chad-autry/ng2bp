@@ -4,7 +4,7 @@
   "IsDungeon": true,
   "IsFilled": true,
   "Depth": 1,
-  "PackDepth": 1,
+  "PackDepth": 0,
   "ParentID": 0,
   "RootID": 0,
   "DungeonData": {
@@ -21,7 +21,7 @@
     "y": 65,
     "z": -1004
   },
-  "Orientation": 2,
+  "Orientation": 0,
   "ChildIDs": [
     22
   ],

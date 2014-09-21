@@ -1,0 +1,88 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 28,
+  "IsDungeon": false,
+  "IsFilled": true,
+  "Depth": 1,
+  "PackDepth": 0,
+  "ParentID": 0,
+  "RootID": 0,
+  "Origin": {
+    "x": -437,
+    "y": 65,
+    "z": 189
+  },
+  "Orientation": 1,
+  "ChildIDs": [
+    29
+  ],
+  "Links": [
+    {
+      "source": {
+        "x": -437,
+        "y": 65,
+        "z": 189,
+        "dimension": 28
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -437,
+          "y": 65,
+          "z": 189,
+          "dimension": 0
+        },
+        "linkType": 7
+      },
+      "orientation": 3,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -433,
+        "y": 65,
+        "z": 189,
+        "dimension": 28
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -433,
+          "y": 65,
+          "z": 189,
+          "dimension": 29
+        },
+        "linkType": 1
+      },
+      "orientation": 3,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -441,
+        "y": 65,
+        "z": 189,
+        "dimension": 28
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 1
+      },
+      "orientation": 3,
+      "children": []
+    }
+  ],
+  "Tails": []
+}
