@@ -12,10 +12,11 @@
     "y": 65,
     "z": 189
   },
-  "Orientation": 1,
+  "Orientation": 0,
   "ChildIDs": [
     29,
-    30
+    30,
+    31
   ],
   "Links": [
     {
@@ -79,6 +80,12 @@
         "z": -1
       },
       "tail": {
+        "destination": {
+          "x": -441,
+          "y": 65,
+          "z": 189,
+          "dimension": 31
+        },
         "linkType": 1
       },
       "orientation": 3,

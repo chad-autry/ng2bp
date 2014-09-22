@@ -1,0 +1,44 @@
+{
+  "SAVE_DATA_VERSION_ID_INSTANCE": 982405775,
+  "ID": 30,
+  "IsDungeon": false,
+  "IsFilled": true,
+  "Depth": 2,
+  "PackDepth": 0,
+  "ParentID": 28,
+  "RootID": 0,
+  "Origin": {
+    "x": -431,
+    "y": 65,
+    "z": 195
+  },
+  "Orientation": 1,
+  "ChildIDs": [],
+  "Links": [
+    {
+      "source": {
+        "x": -431,
+        "y": 65,
+        "z": 195,
+        "dimension": 30
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "destination": {
+          "x": -431,
+          "y": 65,
+          "z": 195,
+          "dimension": 28
+        },
+        "linkType": 7
+      },
+      "orientation": 3,
+      "children": []
+    }
+  ],
+  "Tails": []
+}

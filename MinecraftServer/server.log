@@ -362,3 +362,275 @@ Caused by: java.lang.RuntimeException: Attempted to load class bfe for invalid s
 2014-09-21 09:19:14 [INFO] Saving chunks for level 'world'/Nether
 2014-09-21 09:19:14 [INFO] Saving chunks for level 'world'/PocketDim 27
 2014-09-21 09:19:14 [INFO] Stopping server
+2014-09-21 09:21:31 [INFO] Starting minecraft server version 1.6.4
+2014-09-21 09:21:43 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-21 09:21:43 [INFO] Loading properties
+2014-09-21 09:21:43 [INFO] Default game type: SURVIVAL
+2014-09-21 09:21:43 [INFO] Generating keypair
+2014-09-21 09:21:43 [INFO] Starting Minecraft server on *:25565
+2014-09-21 09:21:49 [INFO] Preparing level "world"
+2014-09-21 09:21:50 [INFO] Preparing start region for level 0
+2014-09-21 09:21:51 [INFO] Preparing spawn area: 21%
+2014-09-21 09:21:52 [INFO] Done (2.498s)! For help, type "help" or "?"
+2014-09-21 09:22:19 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-21 09:22:28 [INFO] ChadTavis[/192.168.1.145:60649] logged in with entity id 252 at (-438.462142519482, 64.0, 187.17090258678826)
+2014-09-21 09:22:28 [INFO] ChadTavis joined the game
+2014-09-21 09:33:22 [WARNING] ChadTavis moved wrongly!
+2014-09-21 09:33:26 [WARNING] ChadTavis moved wrongly!
+2014-09-21 09:46:58 [WARNING] ChadTavis moved wrongly!
+2014-09-21 09:47:03 [WARNING] ChadTavis moved wrongly!
+2014-09-21 09:47:31 [WARNING] ChadTavis moved wrongly!
+2014-09-21 09:48:21 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:04:40 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:04:44 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:04:48 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:06:44 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:10:00 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:10:10 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:13:16 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:17:54 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:21:20 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:21:32 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:22:17 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:22:21 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:30:12 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:30:15 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:33:54 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:33:57 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:36:22 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:36:35 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:48:15 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:48:18 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:49:28 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:49:31 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:49:50 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:49:53 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:49:58 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:50:01 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:51:53 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:53:57 [WARNING] ChadTavis moved wrongly!
+2014-09-21 10:54:25 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-21 10:54:25 [INFO] ChadTavis left the game
+2014-09-21 11:53:19 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-21 11:53:22 [INFO] ChadTavis[/192.168.1.145:61512] logged in with entity id 38088 at (-438.14504446863174, 64.0, 187.45926175196604)
+2014-09-21 11:53:22 [INFO] ChadTavis joined the game
+2014-09-21 11:53:34 [WARNING] ChadTavis moved wrongly!
+2014-09-21 11:54:35 [WARNING] ChadTavis moved wrongly!
+2014-09-21 11:57:01 [WARNING] ChadTavis moved wrongly!
+2014-09-21 11:57:15 [WARNING] ChadTavis moved wrongly!
+2014-09-21 11:57:40 [WARNING] ChadTavis moved wrongly!
+2014-09-21 11:58:17 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:00:53 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:00:59 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:01:06 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:01:09 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:01:26 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:01:30 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:01:38 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:01:41 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:13:08 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:13:14 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:13:45 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:13:50 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:18:13 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:18:18 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:23:37 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:23:40 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:24:23 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:24:30 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:24:37 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:24:43 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:26:46 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:26:54 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:27:50 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:27:55 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:35:12 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:35:15 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:35:19 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:35:24 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:35:37 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:35:40 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:36:08 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:36:10 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:36:12 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:38:00 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:38:23 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:39:00 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:39:25 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:39:29 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:39:48 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:39:59 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:40:19 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:40:22 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:41:15 [WARNING] ChadTavis moved wrongly!
+2014-09-21 12:41:42 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:09:32 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:09:37 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:10:57 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:11:02 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:11:47 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:11:53 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:23:16 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:24:41 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:27:10 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:27:14 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:27:35 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:27:51 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:28:25 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:28:30 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:29:48 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:29:51 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:30:04 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:30:31 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:30:50 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:31:32 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:35:57 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:36:01 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:36:52 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:36:56 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:53:36 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:53:44 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:54:36 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:55:42 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:55:52 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:56:10 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:56:22 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:56:27 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:57:41 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:57:44 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:57:48 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:57:51 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:58:14 [WARNING] ChadTavis moved wrongly!
+2014-09-21 14:58:34 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:09:53 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:09:56 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:10:26 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:10:29 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:10:33 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:11:30 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:11:35 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:11:38 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:11:44 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:11:47 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:12:04 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:12:42 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:13:24 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:13:27 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:15:59 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:16:02 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:30:02 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:30:21 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:39:42 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:39:49 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:47:36 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:47:43 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:48:32 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:49:42 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:56:52 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:56:55 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:58:48 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:58:53 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:58:59 [WARNING] ChadTavis moved wrongly!
+2014-09-21 15:59:02 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:00:58 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:01:01 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:01:11 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:01:56 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:02:06 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:02:09 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:02:13 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:02:56 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:04:54 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:05:32 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:06:27 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:06:30 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:06:35 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:06:39 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:08:32 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:08:37 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:08:50 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:09:39 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:10:06 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:10:08 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:10:16 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:10:19 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:10:22 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:10:49 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:11:26 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:11:29 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:24:06 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:24:10 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:24:25 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:24:28 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:30:27 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:30:30 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:31:15 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:31:47 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:31:59 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:32:16 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:32:56 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:33:10 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:38:28 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:38:32 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:38:54 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:38:57 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:48:20 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:48:23 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:48:29 [WARNING] ChadTavis moved wrongly!
+2014-09-21 16:48:35 [WARNING] ChadTavis moved wrongly!
+2014-09-21 17:32:01 [SEVERE] Reached end of stream for /192.168.1.125
+2014-09-21 17:32:03 [INFO] LizGarland[/192.168.1.125:59379] logged in with entity id 236952 at (-438.3656209856526, 64.0, 186.57562800369053)
+2014-09-21 17:32:03 [INFO] LizGarland joined the game
+2014-09-21 17:36:35 [WARNING] LizGarland moved wrongly!
+2014-09-21 17:36:40 [WARNING] LizGarland moved wrongly!
+2014-09-21 17:37:09 [WARNING] LizGarland moved wrongly!
+2014-09-21 17:37:13 [WARNING] LizGarland moved wrongly!
+2014-09-21 17:47:35 [INFO] LizGarland lost connection: disconnect.quitting
+2014-09-21 17:47:35 [INFO] LizGarland left the game
+2014-09-21 17:53:32 [WARNING] ChadTavis moved wrongly!
+2014-09-21 17:53:36 [WARNING] ChadTavis moved wrongly!
+2014-09-21 17:53:46 [WARNING] ChadTavis moved wrongly!
+2014-09-21 17:53:49 [WARNING] ChadTavis moved wrongly!
+2014-09-21 17:55:16 [WARNING] ChadTavis moved wrongly!
+2014-09-21 17:55:20 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:25:23 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:25:26 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:27:41 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:28:45 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:28:58 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:29:28 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:36:34 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:36:37 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:37:29 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:38:25 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:38:39 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:38:43 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:40:47 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:40:53 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:40:56 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:41:34 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:41:39 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:41:42 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:41:52 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:41:57 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:51:46 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:51:51 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:52:52 [WARNING] ChadTavis moved wrongly!
+2014-09-21 18:52:56 [WARNING] ChadTavis moved wrongly!
+2014-09-21 19:15:42 [WARNING] ChadTavis moved wrongly!
+2014-09-21 19:15:46 [WARNING] ChadTavis moved wrongly!
+2014-09-21 19:15:50 [WARNING] ChadTavis moved wrongly!
+2014-09-21 19:16:13 [WARNING] ChadTavis moved wrongly!
+2014-09-21 19:16:17 [WARNING] ChadTavis moved wrongly!
+2014-09-21 19:16:20 [WARNING] ChadTavis moved wrongly!
+2014-09-21 19:22:26 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-21 19:22:26 [INFO] ChadTavis left the game
+2014-09-21 19:22:38 [INFO] Stopping server
+2014-09-21 19:22:38 [INFO] Saving players
+2014-09-21 19:22:38 [INFO] Saving worlds
+2014-09-21 19:22:38 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-21 19:22:38 [INFO] Closing listening thread
+2014-09-21 19:22:38 [INFO] Saving chunks for level 'world'/Nether
+2014-09-21 19:22:38 [INFO] Saving chunks for level 'world'/PocketDim 30
+2014-09-21 19:22:38 [INFO] Saving chunks for level 'world'/PocketDim 27
+2014-09-21 19:22:38 [INFO] Stopping server

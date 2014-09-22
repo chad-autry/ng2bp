@@ -284,6 +284,42 @@
       },
       "orientation": 1,
       "children": []
+    },
+    {
+      "source": {
+        "x": -1318,
+        "y": 64,
+        "z": 314,
+        "dimension": 0
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 2,
+      "children": []
+    },
+    {
+      "source": {
+        "x": -1434,
+        "y": 65,
+        "z": 144,
+        "dimension": 0
+      },
+      "parent": {
+        "x": -1,
+        "y": -1,
+        "z": -1
+      },
+      "tail": {
+        "linkType": 2
+      },
+      "orientation": 2,
+      "children": []
     }
   ],
   "Tails": []
