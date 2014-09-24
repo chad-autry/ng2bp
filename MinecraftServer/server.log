@@ -1,636 +1,340 @@
-2014-09-20 10:31:05 [INFO] Starting minecraft server version 1.6.4
-2014-09-20 10:31:07 [SEVERE] Encountered an unexpected exception MissingModsException
-cpw.mods.fml.common.MissingModsException
-	at cpw.mods.fml.common.Loader.sortModList(Loader.java:228)
-	at cpw.mods.fml.common.Loader.loadMods(Loader.java:491)
-	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
-	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:350)
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:69)
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445)
-	at net.minecraft.server.ThreadMinecraftServer.run(SourceFile:583)
-2014-09-20 10:31:07 [SEVERE] This crash report has been saved to: E:\MinecraftServer\.\crash-reports\crash-2014-09-20_10.31.07-server.txt
-2014-09-20 10:33:06 [INFO] Stopping server
-2014-09-20 10:33:06 [INFO] Saving worlds
-2014-09-20 10:33:06 [INFO] Stopping server
-2014-09-20 10:34:03 [INFO] Starting minecraft server version 1.6.4
-2014-09-20 10:34:07 [SEVERE] Encountered an unexpected exception NoClassDefFoundError
-java.lang.NoClassDefFoundError: net/minecraft/client/renderer/EntityRenderer
-	at java.lang.Class.forName0(Native Method)
-	at java.lang.Class.forName(Unknown Source)
-	at cpw.mods.fml.common.ModClassLoader.loadBaseModClass(ModClassLoader.java:104)
-	at cpw.mods.fml.common.modloader.ModLoaderModContainer.constructMod(ModLoaderModContainer.java:484)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
-	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
-	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
-	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
-	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
-	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:201)
-	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:181)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at com.google.common.eventbus.EventHandler.handleEvent(EventHandler.java:74)
-	at com.google.common.eventbus.SynchronizedEventHandler.handleEvent(SynchronizedEventHandler.java:45)
-	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:313)
-	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:296)
-	at com.google.common.eventbus.EventBus.post(EventBus.java:267)
-	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:112)
-	at cpw.mods.fml.common.Loader.loadMods(Loader.java:511)
-	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)
-	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:350)
-	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:69)
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445)
-	at net.minecraft.server.ThreadMinecraftServer.run(SourceFile:583)
-Caused by: java.lang.ClassNotFoundException: net.minecraft.client.renderer.EntityRenderer
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:186)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	at java.lang.ClassLoader.loadClass(Unknown Source)
-	... 31 more
-Caused by: java.lang.RuntimeException: Attempted to load class bfe for invalid side SERVER
-	at cpw.mods.fml.common.asm.transformers.SideTransformer.transform(SideTransformer.java:50)
-	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:274)
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:172)
-	... 33 more
-2014-09-20 10:34:07 [SEVERE] This crash report has been saved to: E:\MinecraftServer\.\crash-reports\crash-2014-09-20_10.34.07-server.txt
-2014-09-20 10:35:00 [INFO] Starting minecraft server version 1.6.4
-2014-09-20 10:35:11 [INFO] ComputerCraftAPI: ComputerCraft not found.
-2014-09-20 10:35:11 [INFO] Loading properties
-2014-09-20 10:35:11 [INFO] Default game type: SURVIVAL
-2014-09-20 10:35:11 [INFO] Generating keypair
-2014-09-20 10:35:11 [INFO] Starting Minecraft server on *:25565
-2014-09-20 10:35:17 [INFO] Preparing level "world"
-2014-09-20 10:35:18 [INFO] Preparing start region for level 0
-2014-09-20 10:35:19 [INFO] Preparing spawn area: 5%
-2014-09-20 10:35:20 [INFO] Preparing spawn area: 10%
-2014-09-20 10:35:21 [INFO] Preparing spawn area: 26%
-2014-09-20 10:35:22 [INFO] Preparing spawn area: 41%
-2014-09-20 10:35:23 [INFO] Preparing spawn area: 55%
-2014-09-20 10:35:24 [INFO] Preparing spawn area: 65%
-2014-09-20 10:35:25 [INFO] Preparing spawn area: 79%
-2014-09-20 10:35:26 [INFO] Preparing spawn area: 88%
-2014-09-20 10:35:27 [INFO] Done (9.980s)! For help, type "help" or "?"
-2014-09-20 10:35:27 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
-2014-09-20 10:54:33 [INFO] Stopping server
-2014-09-20 10:54:33 [INFO] Saving players
-2014-09-20 10:54:33 [INFO] Saving worlds
-2014-09-20 10:54:33 [INFO] Saving chunks for level 'world'/Overworld
-2014-09-20 10:54:33 [INFO] Closing listening thread
-2014-09-20 10:54:33 [INFO] Saving chunks for level 'world'/Nether
-2014-09-20 10:54:33 [INFO] Stopping server
-2014-09-20 10:54:47 [INFO] Starting minecraft server version 1.6.4
-2014-09-20 10:54:59 [INFO] ComputerCraftAPI: ComputerCraft not found.
-2014-09-20 10:54:59 [INFO] Loading properties
-2014-09-20 10:54:59 [INFO] Default game type: SURVIVAL
-2014-09-20 10:54:59 [INFO] Generating keypair
-2014-09-20 10:54:59 [INFO] Starting Minecraft server on *:25565
-2014-09-20 10:55:04 [INFO] Preparing level "world"
-2014-09-20 10:55:05 [INFO] Preparing start region for level 0
-2014-09-20 10:55:06 [INFO] Preparing spawn area: 6%
-2014-09-20 10:55:07 [INFO] Preparing spawn area: 14%
-2014-09-20 10:55:08 [INFO] Preparing spawn area: 30%
-2014-09-20 10:55:09 [INFO] Preparing spawn area: 44%
-2014-09-20 10:55:10 [INFO] Preparing spawn area: 59%
-2014-09-20 10:55:11 [INFO] Preparing spawn area: 73%
-2014-09-20 10:55:12 [INFO] Preparing spawn area: 86%
-2014-09-20 10:55:13 [INFO] Preparing spawn area: 93%
-2014-09-20 10:55:14 [INFO] Done (9.697s)! For help, type "help" or "?"
-2014-09-20 10:55:14 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
-2014-09-20 10:58:18 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-20 10:58:21 [INFO] ChadTavis[/192.168.1.145:54839] logged in with entity id 5059 at (213.5, 72.0, 154.5)
-2014-09-20 10:58:21 [INFO] ChadTavis joined the game
-2014-09-20 11:00:08 [INFO] [ChadTavis: Set own game mode to Survival Mode]
-2014-09-20 11:00:14 [INFO] [ChadTavis: Set own game mode to Creative Mode]
-2014-09-20 11:06:04 [INFO] [ChadTavis: Set own game mode to Creative Mode]
-2014-09-20 11:06:15 [INFO] [ChadTavis: Set own game mode to Survival Mode]
-2014-09-20 11:07:01 [INFO] [ChadTavis: Set own game mode to Survival Mode]
-2014-09-20 11:07:07 [INFO] [ChadTavis: Set own game mode to Creative Mode]
-2014-09-20 11:09:51 [INFO] [ChadTavis: Set own game mode to Survival Mode]
-2014-09-20 11:10:01 [INFO] [ChadTavis: Set own game mode to Creative Mode]
-2014-09-20 11:21:17 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-20 11:21:17 [INFO] ChadTavis left the game
-2014-09-20 12:32:28 [INFO] Stopping server
-2014-09-20 12:32:28 [INFO] Saving players
-2014-09-20 12:32:28 [INFO] Saving worlds
-2014-09-20 12:32:28 [INFO] Saving chunks for level 'world'/Overworld
-2014-09-20 12:32:28 [INFO] Closing listening thread
-2014-09-20 12:32:28 [INFO] Saving chunks for level 'world'/Nether
-2014-09-20 12:32:28 [INFO] Stopping server
-2014-09-20 12:44:25 [INFO] Starting minecraft server version 1.6.4
-2014-09-20 12:44:35 [INFO] ComputerCraftAPI: ComputerCraft not found.
-2014-09-20 12:44:35 [INFO] Loading properties
-2014-09-20 12:44:35 [INFO] Default game type: SURVIVAL
-2014-09-20 12:44:35 [INFO] Generating keypair
-2014-09-20 12:44:35 [INFO] Starting Minecraft server on *:25565
-2014-09-20 12:44:40 [INFO] Preparing level "world"
-2014-09-20 12:44:41 [INFO] Preparing start region for level 0
-2014-09-20 12:44:42 [INFO] Done (1.882s)! For help, type "help" or "?"
-2014-09-20 12:44:57 [INFO] Stopping server
-2014-09-20 12:44:57 [INFO] Saving players
-2014-09-20 12:44:57 [INFO] Saving worlds
-2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/Overworld
-2014-09-20 12:44:57 [INFO] Closing listening thread
-2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/Nether
-2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/The End
-2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/Bedrock
-2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/Limbo
-2014-09-20 12:44:57 [INFO] Saving chunks for level 'world'/Underdark
-2014-09-20 12:44:57 [INFO] Stopping server
-2014-09-20 12:45:48 [INFO] Starting minecraft server version 1.6.4
-2014-09-20 12:45:58 [INFO] ComputerCraftAPI: ComputerCraft not found.
-2014-09-20 12:45:58 [INFO] Loading properties
-2014-09-20 12:45:58 [INFO] Default game type: SURVIVAL
-2014-09-20 12:45:58 [INFO] Generating keypair
-2014-09-20 12:45:58 [INFO] Starting Minecraft server on *:25565
-2014-09-20 12:46:03 [INFO] Preparing level "world"
-2014-09-20 12:46:04 [INFO] Preparing start region for level 0
-2014-09-20 12:46:05 [INFO] Preparing spawn area: 7%
-2014-09-20 12:46:06 [INFO] Preparing spawn area: 17%
-2014-09-20 12:46:07 [INFO] Preparing spawn area: 29%
-2014-09-20 12:46:08 [INFO] Preparing spawn area: 44%
-2014-09-20 12:46:09 [INFO] Preparing spawn area: 55%
-2014-09-20 12:46:10 [INFO] Preparing spawn area: 65%
-2014-09-20 12:46:11 [INFO] Preparing spawn area: 75%
-2014-09-20 12:46:12 [INFO] Preparing spawn area: 86%
-2014-09-20 12:46:13 [INFO] Preparing spawn area: 93%
-2014-09-20 12:46:14 [INFO] Done (10.733s)! For help, type "help" or "?"
-2014-09-20 12:46:14 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
-2014-09-20 12:49:35 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-20 12:49:39 [INFO] ChadTavis[/192.168.1.145:56444] logged in with entity id 6742 at (117.5, 70.0, 238.5)
-2014-09-20 12:49:39 [INFO] ChadTavis joined the game
-2014-09-20 13:57:51 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-20 13:57:51 [INFO] ChadTavis left the game
-2014-09-20 13:59:47 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-20 14:00:33 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-20 14:00:36 [INFO] ChadTavis[/192.168.1.145:56611] logged in with entity id 70345 at (-564.0218607863408, 72.0, 1108.9392237996426)
-2014-09-20 14:00:36 [INFO] ChadTavis joined the game
-2014-09-20 14:17:46 [WARNING] ChadTavis moved wrongly!
-2014-09-20 14:18:31 [WARNING] ChadTavis moved wrongly!
-2014-09-20 14:19:49 [WARNING] ChadTavis moved wrongly!
-2014-09-20 14:25:29 [WARNING] ChadTavis moved wrongly!
-2014-09-20 14:26:27 [WARNING] ChadTavis moved too quickly! 1442.0,2.0,-2348.0 (1442.0, 3.465412990240758, 2348.0)
-2014-09-20 14:27:49 [WARNING] ChadTavis moved wrongly!
-2014-09-20 14:27:49 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
-2014-09-20 14:30:09 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-20 14:30:09 [INFO] ChadTavis left the game
-2014-09-20 14:46:28 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-20 14:47:21 [INFO] ChadTavis[/192.168.1.145:56954] logged in with entity id 100636 at (-1540.7232800151614, 63.0, 2400.699999988079)
-2014-09-20 14:47:21 [INFO] ChadTavis joined the game
-2014-09-20 14:55:43 [WARNING] ChadTavis moved wrongly!
-2014-09-20 14:57:36 [WARNING] ChadTavis moved wrongly!
-2014-09-20 14:58:54 [WARNING] ChadTavis moved wrongly!
-2014-09-20 14:59:58 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:17:19 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:18:05 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:18:30 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:18:58 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:24:13 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:27:26 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:27:31 [SEVERE] Reached end of stream for /192.168.1.125
-2014-09-20 15:27:34 [INFO] LizGarland[/192.168.1.125:59247] logged in with entity id 121007 at (108.5, 95.0, 244.5)
-2014-09-20 15:27:34 [INFO] LizGarland joined the game
-2014-09-20 15:30:46 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:31:33 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:33:03 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:34:15 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:36:15 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:38:42 [WARNING] ChadTavis moved too quickly! -5184.0,2.0,948.0 (5184.0, 2.0, 948.0)
-2014-09-20 15:39:28 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
-2014-09-20 15:49:37 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:50:03 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:50:07 [WARNING] ChadTavis moved wrongly!
-2014-09-20 15:50:55 [WARNING] ChadTavis moved wrongly!
-2014-09-20 16:09:26 [WARNING] ChadTavis moved wrongly!
-2014-09-20 16:13:04 [WARNING] ChadTavis moved wrongly!
-2014-09-20 16:13:21 [WARNING] ChadTavis moved wrongly!
-2014-09-20 16:13:40 [WARNING] ChadTavis moved wrongly!
-2014-09-20 16:14:39 [WARNING] ChadTavis moved too quickly! -5640.0,2.0,797.0 (5640.0, 3.572934205279488, 797.0)
-2014-09-20 16:15:28 [WARNING] ChadTavis moved wrongly!
-2014-09-20 16:15:28 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
-2014-09-20 16:15:41 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-20 16:15:41 [INFO] ChadTavis left the game
-2014-09-20 16:16:15 [INFO] Opped LizGarland
-2014-09-20 16:16:48 [INFO] LizGarland lost connection: disconnect.quitting
-2014-09-20 16:16:48 [INFO] LizGarland left the game
-2014-09-20 16:28:27 [INFO] Stopping server
-2014-09-20 16:28:27 [INFO] Saving players
-2014-09-20 16:28:27 [INFO] Saving worlds
-2014-09-20 16:28:27 [INFO] Saving chunks for level 'world'/Overworld
-2014-09-20 16:28:27 [INFO] Closing listening thread
-2014-09-20 16:28:27 [INFO] Saving chunks for level 'world'/Nether
-2014-09-20 16:28:27 [INFO] Stopping server
-2014-09-20 16:31:34 [INFO] Starting minecraft server version 1.6.4
-2014-09-20 16:31:45 [INFO] ComputerCraftAPI: ComputerCraft not found.
-2014-09-20 16:31:45 [INFO] Loading properties
-2014-09-20 16:31:45 [INFO] Default game type: SURVIVAL
-2014-09-20 16:31:45 [INFO] Generating keypair
-2014-09-20 16:31:45 [INFO] Starting Minecraft server on *:25565
-2014-09-20 16:31:50 [INFO] Preparing level "world"
-2014-09-20 16:31:51 [INFO] Preparing start region for level 0
-2014-09-20 16:31:52 [INFO] Preparing spawn area: 67%
-2014-09-20 16:31:52 [INFO] Done (2.012s)! For help, type "help" or "?"
-2014-09-20 16:31:53 [SEVERE] Reached end of stream for /192.168.1.125
-2014-09-20 16:32:58 [INFO] LizGarland[/192.168.1.125:59403] logged in with entity id 259 at (-436.4914918293465, 64.0, 186.30000001192093)
-2014-09-20 16:32:58 [INFO] LizGarland joined the game
-2014-09-20 16:33:56 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-20 16:34:00 [INFO] ChadTavis[/192.168.1.145:57361] logged in with entity id 2148 at (5678.300000011921, 82.0, -1225.300000011921)
-2014-09-20 16:34:00 [INFO] ChadTavis joined the game
-2014-09-20 16:34:01 [INFO] [LizGarland: Teleported ChadTavis to LizGarland]
-2014-09-20 16:34:56 [INFO] LizGarland lost connection: disconnect.quitting
-2014-09-20 16:34:56 [INFO] LizGarland left the game
-2014-09-20 16:44:26 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-20 16:44:26 [INFO] ChadTavis left the game
-2014-09-20 17:21:19 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-20 17:21:22 [INFO] ChadTavis[/192.168.1.145:58030] logged in with entity id 12710 at (-438.7440476399978, 64.0, 186.5986869850741)
-2014-09-20 17:21:22 [INFO] ChadTavis joined the game
-2014-09-20 18:23:45 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-20 18:23:45 [INFO] ChadTavis left the game
-2014-09-20 18:43:36 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-20 18:43:39 [INFO] ChadTavis[/192.168.1.145:58553] logged in with entity id 98253 at (-437.34211163690867, 64.0, 186.94168812733926)
-2014-09-20 18:43:39 [INFO] ChadTavis joined the game
-2014-09-20 18:43:47 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-20 18:43:47 [INFO] ChadTavis left the game
-2014-09-20 19:00:26 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-20 19:00:30 [INFO] ChadTavis[/192.168.1.145:58740] logged in with entity id 98680 at (-437.34211163690867, 64.0, 186.94168812733926)
-2014-09-20 19:00:30 [INFO] ChadTavis joined the game
-2014-09-20 19:12:16 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:16:21 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:17:08 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:22:42 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:22:56 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:24:42 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:33:33 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:36:14 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:36:30 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:36:49 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:37:18 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:39:57 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:40:11 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:42:07 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:53:57 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:56:48 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:57:02 [WARNING] ChadTavis moved wrongly!
-2014-09-20 19:59:18 [WARNING] ChadTavis moved wrongly!
-2014-09-20 20:19:03 [WARNING] ChadTavis moved wrongly!
-2014-09-20 20:19:56 [WARNING] ChadTavis moved wrongly!
-2014-09-20 20:20:35 [WARNING] ChadTavis moved wrongly!
-2014-09-20 20:25:10 [WARNING] ChadTavis moved wrongly!
-2014-09-20 20:25:13 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-20 20:25:13 [INFO] ChadTavis left the game
-2014-09-20 20:25:25 [INFO] Stopping server
-2014-09-20 20:25:25 [INFO] Saving players
-2014-09-20 20:25:25 [INFO] Saving worlds
-2014-09-20 20:25:25 [INFO] Saving chunks for level 'world'/Overworld
-2014-09-20 20:25:25 [INFO] Closing listening thread
-2014-09-20 20:25:25 [INFO] Saving chunks for level 'world'/Nether
-2014-09-20 20:25:25 [INFO] Saving chunks for level 'world'/PocketDim 27
-2014-09-20 20:25:25 [INFO] Stopping server
-2014-09-20 20:26:46 [INFO] Starting minecraft server version 1.6.4
-2014-09-20 20:26:57 [INFO] ComputerCraftAPI: ComputerCraft not found.
-2014-09-20 20:26:57 [INFO] Loading properties
-2014-09-20 20:26:57 [INFO] Default game type: SURVIVAL
-2014-09-20 20:26:57 [INFO] Generating keypair
-2014-09-20 20:26:57 [INFO] Starting Minecraft server on *:25565
-2014-09-20 20:27:02 [INFO] Preparing level "world"
-2014-09-20 20:27:03 [INFO] Preparing start region for level 0
-2014-09-20 20:27:03 [INFO] Done (1.716s)! For help, type "help" or "?"
-2014-09-20 21:03:53 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-20 21:03:57 [INFO] ChadTavis[/192.168.1.145:58974] logged in with entity id 267 at (-440.5, 64.0, 188.5)
-2014-09-20 21:03:57 [INFO] ChadTavis joined the game
-2014-09-20 21:04:06 [WARNING] ChadTavis moved wrongly!
-2014-09-20 21:04:25 [WARNING] ChadTavis moved wrongly!
-2014-09-20 21:04:47 [WARNING] ChadTavis moved wrongly!
-2014-09-20 21:06:39 [WARNING] ChadTavis moved wrongly!
-2014-09-20 21:06:41 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-20 21:06:41 [INFO] ChadTavis left the game
-2014-09-21 05:57:58 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-21 05:58:01 [INFO] ChadTavis[/192.168.1.145:59877] logged in with entity id 17883030 at (-440.5, 64.0, 188.5)
-2014-09-21 05:58:01 [INFO] ChadTavis joined the game
-2014-09-21 05:58:19 [WARNING] ChadTavis moved wrongly!
-2014-09-21 06:04:46 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
-2014-09-21 06:06:05 [WARNING] ChadTavis moved wrongly!
-2014-09-21 06:19:35 [WARNING] ChadTavis moved wrongly!
-2014-09-21 06:21:52 [WARNING] ChadTavis moved wrongly!
-2014-09-21 06:26:10 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-21 06:26:10 [INFO] ChadTavis left the game
-2014-09-21 07:27:35 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-21 07:27:38 [INFO] ChadTavis[/192.168.1.145:60390] logged in with entity id 18104358 at (-438.52922252937356, 64.0, 186.8739378315699)
-2014-09-21 07:27:38 [INFO] ChadTavis joined the game
-2014-09-21 07:27:44 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:31:24 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:37:30 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:39:59 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:40:39 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:40:43 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:41:58 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:42:01 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:44:03 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:44:06 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:44:27 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:48:01 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:59:42 [WARNING] ChadTavis moved wrongly!
-2014-09-21 07:59:57 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:00:30 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:02:56 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:03:44 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:04:25 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:04:54 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:13:18 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:14:54 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:14:59 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:15:07 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:16:06 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:16:33 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:16:39 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:17:14 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:17:26 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:20:47 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:20:51 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:22:16 [WARNING] ChadTavis moved wrongly!
-2014-09-21 08:23:00 [WARNING] ChadTavis moved wrongly!
-2014-09-21 09:19:07 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-21 09:19:07 [INFO] ChadTavis left the game
-2014-09-21 09:19:14 [INFO] Stopping server
-2014-09-21 09:19:14 [INFO] Saving players
-2014-09-21 09:19:14 [INFO] Saving worlds
-2014-09-21 09:19:14 [INFO] Saving chunks for level 'world'/Overworld
-2014-09-21 09:19:14 [INFO] Closing listening thread
-2014-09-21 09:19:14 [INFO] Saving chunks for level 'world'/Nether
-2014-09-21 09:19:14 [INFO] Saving chunks for level 'world'/PocketDim 27
-2014-09-21 09:19:14 [INFO] Stopping server
-2014-09-21 09:21:31 [INFO] Starting minecraft server version 1.6.4
-2014-09-21 09:21:43 [INFO] ComputerCraftAPI: ComputerCraft not found.
-2014-09-21 09:21:43 [INFO] Loading properties
-2014-09-21 09:21:43 [INFO] Default game type: SURVIVAL
-2014-09-21 09:21:43 [INFO] Generating keypair
-2014-09-21 09:21:43 [INFO] Starting Minecraft server on *:25565
-2014-09-21 09:21:49 [INFO] Preparing level "world"
-2014-09-21 09:21:50 [INFO] Preparing start region for level 0
-2014-09-21 09:21:51 [INFO] Preparing spawn area: 21%
-2014-09-21 09:21:52 [INFO] Done (2.498s)! For help, type "help" or "?"
-2014-09-21 09:22:19 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-21 09:22:28 [INFO] ChadTavis[/192.168.1.145:60649] logged in with entity id 252 at (-438.462142519482, 64.0, 187.17090258678826)
-2014-09-21 09:22:28 [INFO] ChadTavis joined the game
-2014-09-21 09:33:22 [WARNING] ChadTavis moved wrongly!
-2014-09-21 09:33:26 [WARNING] ChadTavis moved wrongly!
-2014-09-21 09:46:58 [WARNING] ChadTavis moved wrongly!
-2014-09-21 09:47:03 [WARNING] ChadTavis moved wrongly!
-2014-09-21 09:47:31 [WARNING] ChadTavis moved wrongly!
-2014-09-21 09:48:21 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:04:40 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:04:44 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:04:48 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:06:44 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:10:00 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:10:10 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:13:16 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:17:54 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:21:20 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:21:32 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:22:17 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:22:21 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:30:12 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:30:15 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:33:54 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:33:57 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:36:22 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:36:35 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:48:15 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:48:18 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:49:28 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:49:31 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:49:50 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:49:53 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:49:58 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:50:01 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:51:53 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:53:57 [WARNING] ChadTavis moved wrongly!
-2014-09-21 10:54:25 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-21 10:54:25 [INFO] ChadTavis left the game
-2014-09-21 11:53:19 [SEVERE] Reached end of stream for /192.168.1.145
-2014-09-21 11:53:22 [INFO] ChadTavis[/192.168.1.145:61512] logged in with entity id 38088 at (-438.14504446863174, 64.0, 187.45926175196604)
-2014-09-21 11:53:22 [INFO] ChadTavis joined the game
-2014-09-21 11:53:34 [WARNING] ChadTavis moved wrongly!
-2014-09-21 11:54:35 [WARNING] ChadTavis moved wrongly!
-2014-09-21 11:57:01 [WARNING] ChadTavis moved wrongly!
-2014-09-21 11:57:15 [WARNING] ChadTavis moved wrongly!
-2014-09-21 11:57:40 [WARNING] ChadTavis moved wrongly!
-2014-09-21 11:58:17 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:00:53 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:00:59 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:01:06 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:01:09 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:01:26 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:01:30 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:01:38 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:01:41 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:13:08 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:13:14 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:13:45 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:13:50 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:18:13 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:18:18 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:23:37 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:23:40 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:24:23 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:24:30 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:24:37 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:24:43 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:26:46 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:26:54 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:27:50 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:27:55 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:35:12 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:35:15 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:35:19 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:35:24 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:35:37 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:35:40 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:36:08 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:36:10 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:36:12 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:38:00 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:38:23 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:39:00 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:39:25 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:39:29 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:39:48 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:39:59 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:40:19 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:40:22 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:41:15 [WARNING] ChadTavis moved wrongly!
-2014-09-21 12:41:42 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:09:32 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:09:37 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:10:57 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:11:02 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:11:47 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:11:53 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:23:16 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:24:41 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:27:10 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:27:14 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:27:35 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:27:51 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:28:25 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:28:30 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:29:48 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:29:51 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:30:04 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:30:31 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:30:50 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:31:32 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:35:57 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:36:01 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:36:52 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:36:56 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:53:36 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:53:44 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:54:36 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:55:42 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:55:52 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:56:10 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:56:22 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:56:27 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:57:41 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:57:44 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:57:48 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:57:51 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:58:14 [WARNING] ChadTavis moved wrongly!
-2014-09-21 14:58:34 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:09:53 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:09:56 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:10:26 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:10:29 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:10:33 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:11:30 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:11:35 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:11:38 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:11:44 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:11:47 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:12:04 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:12:42 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:13:24 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:13:27 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:15:59 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:16:02 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:30:02 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:30:21 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:39:42 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:39:49 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:47:36 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:47:43 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:48:32 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:49:42 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:56:52 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:56:55 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:58:48 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:58:53 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:58:59 [WARNING] ChadTavis moved wrongly!
-2014-09-21 15:59:02 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:00:58 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:01:01 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:01:11 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:01:56 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:02:06 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:02:09 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:02:13 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:02:56 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:04:54 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:05:32 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:06:27 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:06:30 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:06:35 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:06:39 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:08:32 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:08:37 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:08:50 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:09:39 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:10:06 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:10:08 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:10:16 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:10:19 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:10:22 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:10:49 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:11:26 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:11:29 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:24:06 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:24:10 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:24:25 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:24:28 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:30:27 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:30:30 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:31:15 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:31:47 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:31:59 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:32:16 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:32:56 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:33:10 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:38:28 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:38:32 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:38:54 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:38:57 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:48:20 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:48:23 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:48:29 [WARNING] ChadTavis moved wrongly!
-2014-09-21 16:48:35 [WARNING] ChadTavis moved wrongly!
-2014-09-21 17:32:01 [SEVERE] Reached end of stream for /192.168.1.125
-2014-09-21 17:32:03 [INFO] LizGarland[/192.168.1.125:59379] logged in with entity id 236952 at (-438.3656209856526, 64.0, 186.57562800369053)
-2014-09-21 17:32:03 [INFO] LizGarland joined the game
-2014-09-21 17:36:35 [WARNING] LizGarland moved wrongly!
-2014-09-21 17:36:40 [WARNING] LizGarland moved wrongly!
-2014-09-21 17:37:09 [WARNING] LizGarland moved wrongly!
-2014-09-21 17:37:13 [WARNING] LizGarland moved wrongly!
-2014-09-21 17:47:35 [INFO] LizGarland lost connection: disconnect.quitting
-2014-09-21 17:47:35 [INFO] LizGarland left the game
-2014-09-21 17:53:32 [WARNING] ChadTavis moved wrongly!
-2014-09-21 17:53:36 [WARNING] ChadTavis moved wrongly!
-2014-09-21 17:53:46 [WARNING] ChadTavis moved wrongly!
-2014-09-21 17:53:49 [WARNING] ChadTavis moved wrongly!
-2014-09-21 17:55:16 [WARNING] ChadTavis moved wrongly!
-2014-09-21 17:55:20 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:25:23 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:25:26 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:27:41 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:28:45 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:28:58 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:29:28 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:36:34 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:36:37 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:37:29 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:38:25 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:38:39 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:38:43 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:40:47 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:40:53 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:40:56 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:41:34 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:41:39 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:41:42 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:41:52 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:41:57 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:51:46 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:51:51 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:52:52 [WARNING] ChadTavis moved wrongly!
-2014-09-21 18:52:56 [WARNING] ChadTavis moved wrongly!
-2014-09-21 19:15:42 [WARNING] ChadTavis moved wrongly!
-2014-09-21 19:15:46 [WARNING] ChadTavis moved wrongly!
-2014-09-21 19:15:50 [WARNING] ChadTavis moved wrongly!
-2014-09-21 19:16:13 [WARNING] ChadTavis moved wrongly!
-2014-09-21 19:16:17 [WARNING] ChadTavis moved wrongly!
-2014-09-21 19:16:20 [WARNING] ChadTavis moved wrongly!
-2014-09-21 19:22:26 [INFO] ChadTavis lost connection: disconnect.quitting
-2014-09-21 19:22:26 [INFO] ChadTavis left the game
-2014-09-21 19:22:38 [INFO] Stopping server
-2014-09-21 19:22:38 [INFO] Saving players
-2014-09-21 19:22:38 [INFO] Saving worlds
-2014-09-21 19:22:38 [INFO] Saving chunks for level 'world'/Overworld
-2014-09-21 19:22:38 [INFO] Closing listening thread
-2014-09-21 19:22:38 [INFO] Saving chunks for level 'world'/Nether
-2014-09-21 19:22:38 [INFO] Saving chunks for level 'world'/PocketDim 30
-2014-09-21 19:22:38 [INFO] Saving chunks for level 'world'/PocketDim 27
-2014-09-21 19:22:38 [INFO] Stopping server
+2014-09-23 16:34:51 [INFO] Starting minecraft server version 1.6.4
+2014-09-23 16:35:02 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-23 16:35:03 [INFO] Loading properties
+2014-09-23 16:35:03 [INFO] Default game type: SURVIVAL
+2014-09-23 16:35:03 [INFO] Generating keypair
+2014-09-23 16:35:03 [INFO] Starting Minecraft server on *:25565
+2014-09-23 16:35:09 [INFO] Preparing level "world"
+2014-09-23 16:35:10 [INFO] Preparing start region for level 0
+2014-09-23 16:35:11 [INFO] Preparing spawn area: 5%
+2014-09-23 16:35:12 [INFO] Preparing spawn area: 12%
+2014-09-23 16:35:13 [INFO] Preparing spawn area: 20%
+2014-09-23 16:35:14 [INFO] Preparing spawn area: 27%
+2014-09-23 16:35:15 [INFO] Preparing spawn area: 36%
+2014-09-23 16:35:16 [INFO] Preparing spawn area: 43%
+2014-09-23 16:35:17 [INFO] Preparing spawn area: 50%
+2014-09-23 16:35:18 [INFO] Preparing spawn area: 58%
+2014-09-23 16:35:19 [INFO] Preparing spawn area: 65%
+2014-09-23 16:35:20 [INFO] Preparing spawn area: 74%
+2014-09-23 16:35:21 [INFO] Preparing spawn area: 83%
+2014-09-23 16:35:22 [INFO] Preparing spawn area: 92%
+2014-09-23 16:35:23 [INFO] Done (14.516s)! For help, type "help" or "?"
+2014-09-23 16:35:23 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
+2014-09-23 16:35:34 [INFO] Stopping server
+2014-09-23 16:35:34 [INFO] Saving players
+2014-09-23 16:35:34 [INFO] Saving worlds
+2014-09-23 16:35:34 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-23 16:35:34 [INFO] Closing listening thread
+2014-09-23 16:35:35 [INFO] Saving chunks for level 'world'/Nether
+2014-09-23 16:35:37 [INFO] Stopping server
+2014-09-23 17:16:46 [INFO] Starting minecraft server version 1.6.4
+2014-09-23 17:16:57 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-23 17:16:58 [INFO] Loading properties
+2014-09-23 17:16:58 [INFO] Default game type: SURVIVAL
+2014-09-23 17:16:58 [INFO] Generating keypair
+2014-09-23 17:16:58 [INFO] Starting Minecraft server on *:25565
+2014-09-23 17:17:03 [INFO] Preparing level "world"
+2014-09-23 17:17:05 [INFO] Preparing start region for level 0
+2014-09-23 17:17:06 [INFO] Preparing spawn area: 4%
+2014-09-23 17:17:07 [INFO] Preparing spawn area: 11%
+2014-09-23 17:17:08 [INFO] Preparing spawn area: 20%
+2014-09-23 17:17:09 [INFO] Preparing spawn area: 30%
+2014-09-23 17:17:10 [INFO] Preparing spawn area: 39%
+2014-09-23 17:17:11 [INFO] Preparing spawn area: 50%
+2014-09-23 17:17:12 [INFO] Preparing spawn area: 59%
+2014-09-23 17:17:13 [INFO] Preparing spawn area: 70%
+2014-09-23 17:17:14 [INFO] Preparing spawn area: 81%
+2014-09-23 17:17:15 [INFO] Preparing spawn area: 91%
+2014-09-23 17:17:16 [INFO] Done (12.399s)! For help, type "help" or "?"
+2014-09-23 17:17:16 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
+2014-09-23 17:20:51 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-23 17:20:57 [INFO] ChadTavis[/192.168.1.145:61208] logged in with entity id 4169 at (217.5, 80.0, 254.5)
+2014-09-23 17:20:57 [INFO] ChadTavis joined the game
+2014-09-23 17:22:09 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-23 17:22:09 [INFO] ChadTavis left the game
+2014-09-23 17:22:14 [INFO] Stopping server
+2014-09-23 17:22:14 [INFO] Saving players
+2014-09-23 17:22:14 [INFO] Saving worlds
+2014-09-23 17:22:14 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-23 17:22:14 [INFO] Closing listening thread
+2014-09-23 17:22:14 [INFO] Saving chunks for level 'world'/Nether
+2014-09-23 17:22:14 [INFO] Stopping server
+2014-09-23 17:22:44 [INFO] Starting minecraft server version 1.6.4
+2014-09-23 17:22:55 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-23 17:22:56 [INFO] Loading properties
+2014-09-23 17:22:56 [INFO] Default game type: SURVIVAL
+2014-09-23 17:22:56 [INFO] Generating keypair
+2014-09-23 17:22:56 [INFO] Starting Minecraft server on *:25565
+2014-09-23 17:23:01 [INFO] Preparing level "world"
+2014-09-23 17:23:02 [INFO] Preparing start region for level 0
+2014-09-23 17:23:03 [INFO] Preparing spawn area: 5%
+2014-09-23 17:23:04 [INFO] Preparing spawn area: 12%
+2014-09-23 17:23:05 [INFO] Preparing spawn area: 19%
+2014-09-23 17:23:06 [INFO] Preparing spawn area: 32%
+2014-09-23 17:23:07 [INFO] Preparing spawn area: 44%
+2014-09-23 17:23:08 [INFO] Preparing spawn area: 55%
+2014-09-23 17:23:09 [INFO] Preparing spawn area: 69%
+2014-09-23 17:23:10 [INFO] Preparing spawn area: 80%
+2014-09-23 17:23:11 [INFO] Preparing spawn area: 93%
+2014-09-23 17:23:12 [INFO] Done (10.961s)! For help, type "help" or "?"
+2014-09-23 17:23:12 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
+2014-09-23 17:23:16 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-23 17:23:20 [INFO] ChadTavis[/192.168.1.145:61232] logged in with entity id 1078 at (-163.5, 69.0, 263.5)
+2014-09-23 17:23:20 [INFO] ChadTavis joined the game
+2014-09-23 17:23:33 [INFO] [ChadTavis: Set own game mode to Survival Mode]
+2014-09-23 17:23:37 [INFO] [ChadTavis: Set own game mode to Creative Mode]
+2014-09-23 17:25:12 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-09-23 17:25:22 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2014-09-23 17:31:03 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-23 17:31:03 [INFO] ChadTavis left the game
+2014-09-23 17:31:08 [INFO] Stopping server
+2014-09-23 17:31:08 [INFO] Saving players
+2014-09-23 17:31:08 [INFO] Saving worlds
+2014-09-23 17:31:08 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-23 17:31:08 [INFO] Closing listening thread
+2014-09-23 17:31:08 [INFO] Saving chunks for level 'world'/Nether
+2014-09-23 17:31:08 [INFO] Saving chunks for level 'world'/Twilight Forest
+2014-09-23 17:31:09 [INFO] Stopping server
+2014-09-23 17:31:28 [INFO] Starting minecraft server version 1.6.4
+2014-09-23 17:31:39 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-23 17:31:40 [INFO] Loading properties
+2014-09-23 17:31:40 [INFO] Default game type: SURVIVAL
+2014-09-23 17:31:40 [INFO] Generating keypair
+2014-09-23 17:31:40 [INFO] Starting Minecraft server on *:25565
+2014-09-23 17:31:45 [INFO] Preparing level "world"
+2014-09-23 17:31:47 [INFO] Preparing start region for level 0
+2014-09-23 17:31:48 [INFO] Preparing spawn area: 5%
+2014-09-23 17:31:49 [INFO] Preparing spawn area: 12%
+2014-09-23 17:31:50 [INFO] Preparing spawn area: 26%
+2014-09-23 17:31:51 [INFO] Preparing spawn area: 37%
+2014-09-23 17:31:52 [INFO] Preparing spawn area: 49%
+2014-09-23 17:31:53 [INFO] Preparing spawn area: 61%
+2014-09-23 17:31:54 [INFO] Preparing spawn area: 71%
+2014-09-23 17:31:55 [INFO] Preparing spawn area: 84%
+2014-09-23 17:31:56 [INFO] Preparing spawn area: 93%
+2014-09-23 17:31:56 [INFO] Done (11.355s)! For help, type "help" or "?"
+2014-09-23 17:31:56 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
+2014-09-23 17:33:25 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-23 17:33:28 [INFO] ChadTavis[/192.168.1.145:61251] logged in with entity id 2109 at (-129.5, 86.0, 18.5)
+2014-09-23 17:33:28 [INFO] ChadTavis joined the game
+2014-09-23 17:33:43 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-23 17:33:43 [INFO] ChadTavis left the game
+2014-09-23 17:33:48 [INFO] Stopping server
+2014-09-23 17:33:48 [INFO] Saving players
+2014-09-23 17:33:48 [INFO] Saving worlds
+2014-09-23 17:33:48 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-23 17:33:48 [INFO] Closing listening thread
+2014-09-23 17:33:48 [INFO] Saving chunks for level 'world'/Nether
+2014-09-23 17:33:48 [INFO] Stopping server
+2014-09-23 17:34:56 [INFO] Starting minecraft server version 1.6.4
+2014-09-23 17:35:07 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-23 17:35:07 [INFO] Loading properties
+2014-09-23 17:35:07 [INFO] Default game type: SURVIVAL
+2014-09-23 17:35:07 [INFO] Generating keypair
+2014-09-23 17:35:08 [INFO] Starting Minecraft server on *:25565
+2014-09-23 17:35:13 [INFO] Preparing level "world"
+2014-09-23 17:35:14 [INFO] Preparing start region for level 0
+2014-09-23 17:35:15 [INFO] Preparing spawn area: 5%
+2014-09-23 17:35:16 [INFO] Preparing spawn area: 10%
+2014-09-23 17:35:17 [INFO] Preparing spawn area: 20%
+2014-09-23 17:35:18 [INFO] Preparing spawn area: 28%
+2014-09-23 17:35:19 [INFO] Preparing spawn area: 33%
+2014-09-23 17:35:20 [INFO] Preparing spawn area: 38%
+2014-09-23 17:35:21 [INFO] Preparing spawn area: 45%
+2014-09-23 17:35:22 [INFO] Preparing spawn area: 52%
+2014-09-23 17:35:23 [INFO] Preparing spawn area: 58%
+2014-09-23 17:35:24 [INFO] Preparing spawn area: 63%
+2014-09-23 17:35:25 [INFO] Preparing spawn area: 70%
+2014-09-23 17:35:27 [INFO] Preparing spawn area: 80%
+2014-09-23 17:35:28 [INFO] Preparing spawn area: 91%
+2014-09-23 17:35:28 [INFO] Done (15.040s)! For help, type "help" or "?"
+2014-09-23 17:35:28 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
+2014-09-23 17:35:38 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-23 17:35:42 [INFO] ChadTavis[/192.168.1.145:61270] logged in with entity id 2212 at (22.5, 68.0, 248.5)
+2014-09-23 17:35:42 [INFO] ChadTavis joined the game
+2014-09-23 17:36:12 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-23 17:36:12 [INFO] ChadTavis left the game
+2014-09-23 17:36:15 [INFO] Stopping server
+2014-09-23 17:36:15 [INFO] Saving players
+2014-09-23 17:36:15 [INFO] Saving worlds
+2014-09-23 17:36:15 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-23 17:36:15 [INFO] Closing listening thread
+2014-09-23 17:36:15 [INFO] Saving chunks for level 'world'/Nether
+2014-09-23 17:36:16 [INFO] Stopping server
+2014-09-23 17:36:29 [INFO] Starting minecraft server version 1.6.4
+2014-09-23 17:36:41 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-23 17:36:41 [INFO] Loading properties
+2014-09-23 17:36:41 [INFO] Default game type: SURVIVAL
+2014-09-23 17:36:41 [INFO] Generating keypair
+2014-09-23 17:36:42 [INFO] Starting Minecraft server on *:25565
+2014-09-23 17:36:47 [INFO] Preparing level "world"
+2014-09-23 17:36:48 [INFO] Preparing start region for level 0
+2014-09-23 17:36:49 [INFO] Preparing spawn area: 5%
+2014-09-23 17:36:50 [INFO] Preparing spawn area: 11%
+2014-09-23 17:36:51 [INFO] Preparing spawn area: 26%
+2014-09-23 17:36:52 [INFO] Preparing spawn area: 36%
+2014-09-23 17:36:53 [INFO] Preparing spawn area: 48%
+2014-09-23 17:36:54 [INFO] Preparing spawn area: 59%
+2014-09-23 17:36:55 [INFO] Preparing spawn area: 69%
+2014-09-23 17:36:57 [INFO] Preparing spawn area: 79%
+2014-09-23 17:36:58 [INFO] Preparing spawn area: 85%
+2014-09-23 17:36:59 [INFO] Preparing spawn area: 95%
+2014-09-23 17:36:59 [INFO] Done (11.716s)! For help, type "help" or "?"
+2014-09-23 17:37:00 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
+2014-09-23 17:37:04 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-23 17:37:08 [INFO] ChadTavis[/192.168.1.145:61290] logged in with entity id 1877 at (-135.5, 64.0, 280.5)
+2014-09-23 17:37:08 [INFO] ChadTavis joined the game
+2014-09-23 17:37:34 [INFO] [ChadTavis: Set own game mode to Creative Mode]
+2014-09-23 17:40:30 [INFO] [ChadTavis: Game rule has been updated]
+2014-09-23 17:40:34 [INFO] ChadTavis fell out of the world
+2014-09-23 17:40:40 [INFO] ChadTavis fell out of the world
+2014-09-23 17:40:49 [INFO] ChadTavis fell out of the world
+2014-09-23 17:42:12 [INFO] [ChadTavis: Set ChadTavis's spawn point to (-128, 64, 279)]
+2014-09-23 17:45:30 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-23 17:45:30 [INFO] ChadTavis left the game
+2014-09-23 17:45:35 [INFO] Stopping server
+2014-09-23 17:45:35 [INFO] Saving players
+2014-09-23 17:45:35 [INFO] Saving worlds
+2014-09-23 17:45:35 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-23 17:45:35 [INFO] Closing listening thread
+2014-09-23 17:45:35 [INFO] Saving chunks for level 'world'/Nether
+2014-09-23 17:45:49 [INFO] Starting minecraft server version 1.6.4
+2014-09-23 17:46:00 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-23 17:46:00 [INFO] Loading properties
+2014-09-23 17:46:00 [INFO] Default game type: SURVIVAL
+2014-09-23 17:46:00 [INFO] Generating keypair
+2014-09-23 17:46:00 [INFO] Starting Minecraft server on *:25565
+2014-09-23 17:46:06 [INFO] Preparing level "world"
+2014-09-23 17:46:07 [INFO] Preparing start region for level 0
+2014-09-23 17:46:08 [INFO] Preparing spawn area: 5%
+2014-09-23 17:46:09 [INFO] Preparing spawn area: 11%
+2014-09-23 17:46:10 [INFO] Preparing spawn area: 18%
+2014-09-23 17:46:11 [INFO] Preparing spawn area: 26%
+2014-09-23 17:46:12 [INFO] Preparing spawn area: 37%
+2014-09-23 17:46:13 [INFO] Preparing spawn area: 45%
+2014-09-23 17:46:14 [INFO] Preparing spawn area: 52%
+2014-09-23 17:46:15 [INFO] Preparing spawn area: 59%
+2014-09-23 17:46:16 [INFO] Preparing spawn area: 66%
+2014-09-23 17:46:17 [INFO] Preparing spawn area: 75%
+2014-09-23 17:46:18 [INFO] Preparing spawn area: 85%
+2014-09-23 17:46:19 [INFO] Preparing spawn area: 95%
+2014-09-23 17:46:20 [INFO] Done (13.840s)! For help, type "help" or "?"
+2014-09-23 17:46:20 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
+2014-09-23 17:46:41 [INFO] Game rule has been updated
+2014-09-23 17:46:58 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-23 17:47:01 [INFO] ChadTavis[/192.168.1.145:62177] logged in with entity id 2762 at (-194.5, 69.0, 222.5)
+2014-09-23 17:47:01 [INFO] ChadTavis joined the game
+2014-09-23 17:47:11 [INFO] [ChadTavis: Set own game mode to Creative Mode]
+2014-09-23 17:47:21 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-23 17:47:21 [INFO] ChadTavis left the game
+2014-09-23 17:48:00 [INFO] Stopping server
+2014-09-23 17:48:00 [INFO] Saving players
+2014-09-23 17:48:00 [INFO] Saving worlds
+2014-09-23 17:48:00 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-23 17:48:00 [INFO] Closing listening thread
+2014-09-23 17:48:00 [INFO] Saving chunks for level 'world'/Nether
+2014-09-23 17:48:00 [INFO] Stopping server
+2014-09-23 17:48:11 [INFO] Starting minecraft server version 1.6.4
+2014-09-23 17:48:23 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-23 17:48:23 [INFO] Loading properties
+2014-09-23 17:48:23 [INFO] Default game type: SURVIVAL
+2014-09-23 17:48:24 [INFO] Generating keypair
+2014-09-23 17:48:24 [INFO] Starting Minecraft server on *:25565
+2014-09-23 17:48:30 [INFO] Preparing level "world"
+2014-09-23 17:48:31 [INFO] Preparing start region for level 0
+2014-09-23 17:48:32 [INFO] Preparing spawn area: 8%
+2014-09-23 17:48:33 [INFO] Preparing spawn area: 20%
+2014-09-23 17:48:34 [INFO] Preparing spawn area: 28%
+2014-09-23 17:48:35 [INFO] Preparing spawn area: 36%
+2014-09-23 17:48:36 [INFO] Preparing spawn area: 46%
+2014-09-23 17:48:37 [INFO] Preparing spawn area: 56%
+2014-09-23 17:48:38 [INFO] Preparing spawn area: 68%
+2014-09-23 17:48:39 [INFO] Preparing spawn area: 81%
+2014-09-23 17:48:40 [INFO] Preparing spawn area: 93%
+2014-09-23 17:48:41 [INFO] Done (11.271s)! For help, type "help" or "?"
+2014-09-23 17:48:41 [WARNING] [ResonantEngine]SaveManager: Skipping object with id 
+2014-09-23 17:49:18 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-23 17:49:21 [INFO] ChadTavis[/192.168.1.145:62274] logged in with entity id 4366 at (-168.5, 60.0, 287.5)
+2014-09-23 17:49:21 [INFO] ChadTavis joined the game
+2014-09-23 17:49:39 [INFO] [ChadTavis: Set own game mode to Adventure Mode]
+2014-09-23 17:49:42 [INFO] [ChadTavis: Set own game mode to Creative Mode]
+2014-09-23 17:53:31 [INFO] [ChadTavis: Game rule has been updated]
+2014-09-23 17:53:35 [INFO] ChadTavis fell out of the world
+2014-09-23 19:55:50 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-23 19:55:50 [INFO] ChadTavis left the game
+2014-09-23 19:55:53 [INFO] Stopping server
+2014-09-23 19:55:53 [INFO] Saving players
+2014-09-23 19:55:53 [INFO] Saving worlds
+2014-09-23 19:55:53 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-23 19:55:53 [INFO] Closing listening thread
+2014-09-23 19:55:53 [INFO] Saving chunks for level 'world'/Nether
+2014-09-23 19:55:53 [INFO] Stopping server
+2014-09-23 19:56:12 [INFO] Starting minecraft server version 1.6.4
+2014-09-23 19:56:25 [INFO] ComputerCraftAPI: ComputerCraft not found.
+2014-09-23 19:56:25 [INFO] Loading properties
+2014-09-23 19:56:25 [INFO] Default game type: SURVIVAL
+2014-09-23 19:56:25 [INFO] Generating keypair
+2014-09-23 19:56:25 [INFO] Starting Minecraft server on *:25565
+2014-09-23 19:56:35 [INFO] Preparing level "world"
+2014-09-23 19:56:36 [INFO] Preparing start region for level 0
+2014-09-23 19:56:37 [INFO] Done (1.516s)! For help, type "help" or "?"
+2014-09-23 19:56:47 [SEVERE] Reached end of stream for /192.168.1.145
+2014-09-23 19:56:50 [INFO] ChadTavis[/192.168.1.145:62516] logged in with entity id 199 at (-170.88686767661562, 61.0, 285.29662897250586)
+2014-09-23 19:56:51 [INFO] ChadTavis joined the game
+2014-09-23 19:57:23 [INFO] 'command_block' is not a valid number
+2014-09-23 19:58:41 [INFO] [ChadTavis: Given Weighted Pressure Plate (Light) (ID 147) * 10 to ChadTavis]
+2014-09-23 19:58:53 [INFO] [ChadTavis: Given Command Block (ID 137) * 10 to ChadTavis]
+2014-09-23 20:04:44 [INFO] [@: Given item.extrautils:creativebuilderswand.name (ID 10260) * 1 to ChadTavis]
+2014-09-23 20:04:52 [INFO] [@: Given item.extrautils:creativebuilderswand.name (ID 10260) * 2 to ChadTavis]
+2014-09-23 20:06:40 [INFO] [@: Given item.extrautils:creativebuilderswand.name (ID 10260) * 2 to ChadTavis]
+2014-09-23 20:07:06 [INFO] Added new objective 'points' successfully
+2014-09-23 20:07:19 [INFO] Added new objective 'activations' successfully
+2014-09-23 20:14:32 [INFO] [@: Set score of points for player ChadTavis to 1]
+2014-09-23 20:14:35 [INFO] [@: Set score of points for player ChadTavis to 2]
+2014-09-23 20:15:14 [INFO] [@: Set score of points for player ChadTavis to 0]
+2014-09-23 20:17:25 [INFO] [@: Given item.backpack.black.name (ID 18586) * 1 to ChadTavis]
+2014-09-23 20:17:37 [INFO] [@: Set score of points for player ChadTavis to 1]
+2014-09-23 20:17:38 [INFO] [@: Given item.backpack.black.name (ID 18586) * 1 to ChadTavis]
+2014-09-23 20:17:41 [INFO] [@: Set score of points for player ChadTavis to 2]
+2014-09-23 20:17:41 [INFO] [@: Given item.backpack.black.name (ID 18586) * 1 to ChadTavis]
+2014-09-23 20:18:08 [INFO] [@: Set score of points for player ChadTavis to 0]
+2014-09-23 20:18:15 [INFO] [@: Set score of points for player ChadTavis to 1]
+2014-09-23 20:18:44 [INFO] [@: Set score of points for player ChadTavis to 0]
+2014-09-23 20:19:13 [INFO] [@: Set score of points for player ChadTavis to 1]
+2014-09-23 20:19:13 [INFO] [@: Given item.backpack.black.name (ID 18586) * 1 to ChadTavis]
+2014-09-23 20:19:15 [INFO] [@: Set score of points for player ChadTavis to 2]
+2014-09-23 20:19:17 [INFO] [@: Set score of points for player ChadTavis to 3]
+2014-09-23 20:21:03 [INFO] [@: Set the time to 0]
+2014-09-23 20:21:03 [INFO] [@: Set score of points for player ChadTavis to 4]
+2014-09-23 20:22:53 [INFO] [@: Set the time to 0]
+2014-09-23 20:22:53 [INFO] [@: Changing to clear weather]
+2014-09-23 20:22:53 [INFO] [@: Set score of points for player ChadTavis to 5]
+2014-09-23 20:27:45 [INFO] [@: Set score of points for player ChadTavis to 0]
+2014-09-23 20:27:59 [INFO] [@: Set the time to 0]
+2014-09-23 20:27:59 [INFO] [@: Changing to clear weather]
+2014-09-23 20:27:59 [INFO] [@: Set score of points for player ChadTavis to 1]
+2014-09-23 20:27:59 [INFO] [@: Given item.backpack.black.name (ID 18586) * 1 to ChadTavis]
+2014-09-23 20:27:59 [INFO] [@: Given Oak Wood (ID 17) * 64 to ChadTavis]
+2014-09-23 20:27:59 [INFO] [@: Given Cobblestone (ID 4) * 64 to ChadTavis]
+2014-09-23 20:27:59 [INFO] [@: Given Bread (ID 297) * 64 to ChadTavis]
+2014-09-23 20:28:04 [INFO] [@: Set the time to 0]
+2014-09-23 20:28:04 [INFO] [@: Changing to clear weather]
+2014-09-23 20:28:04 [INFO] [@: Set score of points for player ChadTavis to 2]
+2014-09-23 20:28:06 [INFO] [@: Set the time to 0]
+2014-09-23 20:28:06 [INFO] [@: Changing to clear weather]
+2014-09-23 20:28:06 [INFO] [@: Set score of points for player ChadTavis to 3]
+2014-09-23 20:28:09 [INFO] [@: Set the time to 0]
+2014-09-23 20:28:09 [INFO] [@: Changing to clear weather]
+2014-09-23 20:28:09 [INFO] [@: Set score of points for player ChadTavis to 4]
+2014-09-23 20:28:11 [INFO] [@: Set the time to 0]
+2014-09-23 20:28:11 [INFO] [@: Changing to clear weather]
+2014-09-23 20:28:11 [INFO] [@: Set score of points for player ChadTavis to 5]
+2014-09-23 20:30:08 [INFO] ChadTavis lost connection: disconnect.quitting
+2014-09-23 20:30:08 [INFO] ChadTavis left the game
+2014-09-23 20:30:44 [INFO] Stopping server
+2014-09-23 20:30:44 [INFO] Saving players
+2014-09-23 20:30:44 [INFO] Saving worlds
+2014-09-23 20:30:44 [INFO] Saving chunks for level 'world'/Overworld
+2014-09-23 20:30:44 [INFO] Closing listening thread
+2014-09-23 20:30:44 [INFO] Saving chunks for level 'world'/Nether
+2014-09-23 20:30:44 [INFO] Stopping server
