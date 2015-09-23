@@ -1,0 +1,23 @@
+{
+  "name": "alpine-rsync",
+  "version": "1.0.0",
+  "description": "Docker containerized rsync",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chad-autry/alpine-rsync"
+  },
+  "keywords": [
+    "Docker",
+    "Minecraft"
+  ],
+  "author": {
+    "name": "Chad Autry",
+    "email": "chad.autry@gmail.com",
+    "url": "http://chad-autry.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chad-autry/alpine-rsync/issues"
+  },
+  "homepage": "https://github.com/chad-autry/alpine-rsync"
+}
