@@ -15,7 +15,11 @@ $ npm install
 $ npm run build
 ```
 
-Finally, open `file:///path/to/nng2bp/target/webapp/index.html` in your browser.
+Finally,
+```sh
+$ npm run server
+```
+hosts a local server and auto-launches a browser window. The server refreshes the hosted files whenever a build is run, just refresh the browser.
 
 Happy hacking!
 

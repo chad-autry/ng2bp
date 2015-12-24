@@ -9,7 +9,7 @@
     "copy:HTML": "copyfiles -f ./src/index.html ./target/webapp",
     "copy:polyfill": "copyfiles -f ./node_modules/angular2/bundles/angular2-polyfills.js ./target/webapp",
     "less": "lessc ./src/less/main.less > ./target/webapp/styles.css",
-    "server": "lite-server --baseDir ./target/webapp"
+    "server": "lite-server --baseDir ./target/webapp --files './target/webapp/**/*.html' './target/webapp/**/*.css' './target/webapp/**/*.js'"
   },
   "keywords": [
     "hexagonal",
