@@ -7,17 +7,21 @@ module.exports = ngCore
         template: `
         <div class="container">
 <div class="jumbotron">
-  <h1>Important</h1>
-
-  <p class="lead">
-    Angular 2 is still in beta. Also TypeScript is MUCH better documented than plain JavaScript, you'll probablly have an easier time using TypeScript.
-  </p>
-  <p class="lead">
-    ng2bp has its origins in Josh Miller's ngbp project. It has since then been heavily modified by me.
-  </p>
-  <p class="lead">
-    Special thanks to everyone over of the Angular 2 gitter chat. Particularlly brandonroberts
-  </p>
+  <h1 class="text-center">Special Notices</h1>
+  <ul class="lead">
+    <li>
+      <i class="fa fa-exclamation-triangle"></i>&nbsp;Angular 2 is still in beta. As such the plain JavaScript documentation is currentlly lacking and the general recommendation at the moment is to use TypeScript for better support.
+    </li>
+    <li>
+      ng2bp has its origins in <a href="https://github.com/joshdmiller"><i class="fa fa-at"></i>joshdmiller's</a>&nbsp;<a href="https://github.com/ngbp/ngbp"><i class="fa fa-code-fork"></i>ngbp project</a>
+      . It has since then been heavily modified until it is only superficially similar.
+    </li>
+    <li>
+      Special thanks to everyone over in the <a href="https://gitter.im/angular/angular">
+      Angular 2 gitter chat&nbsp;<i class="fa fa-comments"></i></a>. Particularlly <a href="https://github.com/brandonroberts">
+      <i class="fa fa-at"></i>brandonroberts</a> for his helpful plunkers.
+    </li>
+  </ul>
 </div>
 
 <div class="marketing">
