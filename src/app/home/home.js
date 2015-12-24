@@ -1,4 +1,5 @@
-var ngCore = require('angular2/core');
+var ngCore = require('angular2/core'),
+    ngBrowser = require('angular2/platform/browser');
 
 module.exports = ngCore
     .Component({
@@ -99,5 +100,11 @@ module.exports = ngCore
 </div>`
      })
     .Class({
-        constructor: function() {}
+        constructor: [ngBrowser.Title, function( title) {
+            //Save the titleService
+            this.title = title;
+        }],
+        routerOnActivate: function(nextInstruction, prevInstruction) {
+            this.title.setTitle("ng2bp | Home");
+        }
     });

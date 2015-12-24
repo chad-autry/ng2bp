@@ -7,6 +7,6 @@ var ng = require('angular2/platform/browser'),
 (function() {
     document.addEventListener('DOMContentLoaded', function() {
         //If we wanted to inject mock services (such as Http), we could do so here
-        ng.bootstrap(rootComponent, [ngRouter.ROUTER_PROVIDERS, ngCore.provide(ngRouter.APP_BASE_HREF, {useValue:'/'})]);
+        ng.bootstrap(rootComponent, [ng.Title, ngRouter.ROUTER_PROVIDERS, ngCore.provide(ngRouter.APP_BASE_HREF, {useValue:'/'})]);
     });
 })();
