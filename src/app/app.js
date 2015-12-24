@@ -2,7 +2,7 @@ var ngCore = require('angular2/core'),
     ngRouter = require('angular2/router'),
     navbarComponent = require('./navbar/navbar.js'),
     homeComponent = require('./home/home.js'),
-    aboutComponent = require('./about/about.js'),
+    lazyLoadDemoComponent = require('./lazyLoadDemo/lazyLoadDemo.js'),
     footerComponent = require('./footer/footer.js');
 
 module.exports = ngCore
@@ -19,7 +19,7 @@ module.exports = ngCore
             //Configure our routes
             router.config([
                 { path: '/home', component: homeComponent, name: 'Home', useAsDefault: true },
-                { path: '/about', component: aboutComponent, name: 'About'}
+                { path: '/lazyLoadDemo', component: lazyLoadDemoComponent, name: 'LazyLoadDemo'}
             ]);
         }]
     });

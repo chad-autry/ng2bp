@@ -15,10 +15,10 @@ module.exports = ngCore
             <i [ngClass]="{'fa-chevron-right': menuCollapsed, 'fa-chevron-down': !menuCollapsed}" class='fa'></i>
           </div>
           <div class="navbar-brand">
-            hex-grid-map-3D
+            ng2bp
             <small>
               <a class="navbar-link" href="https://github.com/chad-autry/ng2bp/tree/master">
-                 TEMP VERSION
+                 master
               </a>
             </small>
           </div>
@@ -27,24 +27,24 @@ module.exports = ngCore
           <ul class="nav navbar-nav">
             <li linkActiveClass="active">
               <a [routerLink]="['Home']">
-                <i class="fa fa-picture-o"></i>
+                <i class="fa fa-home"></i>
                 Home
               </a>
             </li>
             <li linkActiveClass="active">
-              <a [routerLink]="['About']">
-                <i class="fa fa-book"></i>
-                About
+              <a [routerLink]="['LazyLoadDemo']">
+                <i class="fa fa-download"></i>
+                Lazy Load Demo
               </a>
             </li>
             <li>
-              <a href="https://github.com/chad-autry/hex-grid-map-3D">
+              <a href="https://github.com/chad-autry/ng2bp">
                 <i class="fa fa-github-alt"></i>
                 Github
               </a>
             </li>
             <li>
-              <a href="https://github.com/chad-autry/hex-grid-map-3D/issues">
+              <a href="https://github.com/chad-autry/ng2bp/issues">
                 <i class="fa fa-comments"></i>
                 Support
               </a>
