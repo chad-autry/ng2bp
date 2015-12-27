@@ -1,6 +1,8 @@
 var ngCore = require('angular2/core'),
+    ngCommonDirectives = require('angular2/src/common/directives'),
     ngRouter = require('angular2/router'),
-    linkActiveClass = require('../../common/LinkActiveClassDirective');
+    linkActiveClass = require('../../common/LinkActiveClassDirective'),
+    Auth = require('ng2-ui-auth');
 
 module.exports = ngCore
     .Component({
@@ -50,11 +52,27 @@ module.exports = ngCore
               </a>
             </li>
           </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li linkActiveClass="active" *ngIf="auth.isAuthenticated()">
+              <a [routerLink]="['UserManagement']">
+                <i class="fa fa-user"></i>
+                {{auth.user.alias}}
+              </a>
+            </li>
+            <li linkActiveClass="active" *ngIf="!auth.isAuthenticated()">
+              <a [routerLink]="['Login']">
+                <i class="fa fa-sign-in"></i>
+                Logon
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>`,
-     directives: [ngRouter.ROUTER_DIRECTIVES, linkActiveClass]
+     directives: [ngRouter.ROUTER_DIRECTIVES, linkActiveClass, ngCommonDirectives.NgIf]
      })
     .Class({
-        constructor: function() {}
+        constructor: [Auth.Auth, function(auth) {
+            this.auth = auth;
+        }]
     });

@@ -22,12 +22,14 @@
     "url": "http://chad-autry.github.io/"
   },
   "dependencies": {
+    "angular2-jwt": "^0.1.3",
     "bootstrap": "^3.3.6"
   },
   "devDependencies": {
     "angular-mocks": "^1.3.15",
     "angular2": "^2.0.0-beta.0",
     "browserify": "git+https://git@github.com/chad-autry/node-browserify",
+    "ng2-ui-auth": "git+https://github.com/chad-autry/ng2-ui-auth#javascript",
     "browserify-shim": "^3.8.3",
     "copyfiles": "^0.2.1",
     "es6-promise": "^3.0.2",

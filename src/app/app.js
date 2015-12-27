@@ -3,7 +3,8 @@ var ngCore = require('angular2/core'),
     navbarComponent = require('./navbar/navbar.js'),
     homeComponent = require('./home/home.js'),
     lazyLoadDemoComponent = require('./lazyLoadDemo/lazyLoadDemo.js'),
-    footerComponent = require('./footer/footer.js');
+    footerComponent = require('./footer/footer.js'),
+    loginComponent = require('../common/Login.js');
 
 module.exports = ngCore
     .Component({
@@ -19,7 +20,8 @@ module.exports = ngCore
             //Configure our routes
             router.config([
                 { path: '/home', component: homeComponent, name: 'Home', useAsDefault: true },
-                { path: '/lazyLoadDemo', component: lazyLoadDemoComponent, name: 'LazyLoadDemo'}
+                { path: '/lazyLoadDemo', component: lazyLoadDemoComponent, name: 'LazyLoadDemo'},
+                { path: '/login', component: loginComponent, name: 'Login'}
             ]);
         }]
     });
