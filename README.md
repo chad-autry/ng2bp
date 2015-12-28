@@ -1,4 +1,4 @@
-# [ng2bp](https://github.com/chad-autry/ng2bp) [![Build Status](https://api.travis-ci.org/ngbp/ngbp.png?branch=v0.3.2-release)](https://travis-ci.org/ngbp/ngbp)
+# [ng2bp](https://github.com/chad-autry/ng2bp) [![Build Status](https://travis-ci.org/chad-autry/ng2bp.svg)](https://travis-ci.org/ng2bp/ng2bp)
 
 An opinionated kickstarter for [AngularJS 2](https://angular.io/) projects.
 
