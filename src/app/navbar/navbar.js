@@ -56,7 +56,7 @@ module.exports = ngCore
             <li linkActiveClass="active" *ngIf="auth.isAuthenticated()">
               <a [routerLink]="['UserManagement']">
                 <i class="fa fa-user"></i>
-                {{auth.user.alias}}
+                {{auth.getToken()}}
               </a>
             </li>
             <li linkActiveClass="active" *ngIf="!auth.isAuthenticated()">

@@ -47,7 +47,7 @@ module.exports = ngCore
         directives: [ ngRouter.ROUTER_DIRECTIVES]
      })
     .Class({
-        constructor: [Auth.Auth, ngCommon.FormBuilder, ngRouter.Router, ngCore.ElementRef, ngCore.Renderer, function(auth, formBuilder, router, element, renderer) {
+        constructor: [Auth.Auth, ngCommon.FormBuilder, ngRouter.Router, ngCore.ElementRef, ngCore.Renderer, ngBrowser.Title, function(auth, formBuilder, router, element, renderer, title) {
             this.auth = auth;
             this.router = router;
             this.element = element;
@@ -61,21 +61,28 @@ module.exports = ngCore
             password: ['', ngCommon.Validators.required],
             };
             this.form = formBuilder.group(this.userControlsConfig);
+            this.title = title;
         }],
+        routerOnActivate: function(nextInstruction, prevInstruction) {
+            this.title.setTitle("ng2bp | Log in");
+        },
         form: ngCommon.ControlGroup,
         login: function () {
                    this.auth.login(this.user)
                    .subscribe(
                        () => this.goToMain(),
-                       this.handlers.error
+                       this.handleError
                    );
         },
         authenticate: function (provider) {
             this.auth.authenticate(provider)
-            subscribe(
+            .subscribe(
                () => this.goToMain(),
-               this.handlers.error
+               this.handleError
             );
+        },
+        handleError: function (e) {
+            console.log(e);
         },
         goToMain: function() {
             this.router.navigate(['Home']);

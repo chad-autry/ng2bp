@@ -4,6 +4,7 @@ var ngCore = require('angular2/core'),
     homeComponent = require('./home/home.js'),
     lazyLoadDemoComponent = require('./lazyLoadDemo/lazyLoadDemo.js'),
     footerComponent = require('./footer/footer.js'),
+    userManagementComponent = require('./userManagement/userManagement.js'),
     loginComponent = require('../common/Login.js');
 
 module.exports = ngCore
@@ -21,7 +22,8 @@ module.exports = ngCore
             router.config([
                 { path: '/home', component: homeComponent, name: 'Home', useAsDefault: true },
                 { path: '/lazyLoadDemo', component: lazyLoadDemoComponent, name: 'LazyLoadDemo'},
-                { path: '/login', component: loginComponent, name: 'Login'}
+                { path: '/login', component: loginComponent, name: 'Login'},
+                { path: '/user', component: userManagementComponent, name: 'UserManagement'}
             ]);
         }]
     });
