@@ -19,7 +19,7 @@ var ng = require('angular2/platform/browser'),
 
 (function() {
     document.addEventListener('DOMContentLoaded', function() {
-        let backEnd = new ngTesting.MockBackend();
+        var backEnd = new ngTesting.MockBackend();
         backEnd.connections.subscribe((c) => {
 	                c.mockRespond({ json: function(){return {token: 'token'};}});
             });
