@@ -2,6 +2,7 @@ var ngCore = require('angular2/core'),
     ngCommonDirectives = require('angular2/src/common/directives'),
     ngRouter = require('angular2/router'),
     linkActiveClass = require('../../common/LinkActiveClassDirective'),
+    jwt = require('angular2-jwt'),
     Auth = require('ng2-ui-auth');
 
 module.exports = ngCore
@@ -56,7 +57,7 @@ module.exports = ngCore
             <li linkActiveClass="active" *ngIf="auth.isAuthenticated()">
               <a [routerLink]="['UserManagement']">
                 <i class="fa fa-user"></i>
-                {{auth.getToken()}}
+                {{jwtHelper.decodeToken(auth.getToken()).name}}
               </a>
             </li>
             <li linkActiveClass="active" *ngIf="!auth.isAuthenticated()">
@@ -72,7 +73,8 @@ module.exports = ngCore
      directives: [ngRouter.ROUTER_DIRECTIVES, linkActiveClass, ngCommonDirectives.NgIf]
      })
     .Class({
-        constructor: [Auth.Auth, function(auth) {
+        constructor: [Auth.Auth, jwt.JwtHelper, function(auth, jwtHelper) {
             this.auth = auth;
+            this.jwtHelper = jwtHelper;
         }]
     });

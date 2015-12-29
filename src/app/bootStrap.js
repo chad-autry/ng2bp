@@ -21,15 +21,21 @@ var ng = require('angular2/platform/browser'),
     document.addEventListener('DOMContentLoaded', function() {
         var backEnd = new ngTesting.MockBackend();
         backEnd.connections.subscribe((c) => {
-	                c.mockRespond({ json: function(){return {token: 'token'};}});
-            });
-        //If we wanted to inject mock services (such as Http), we could do so here
+            //Our mock backend service returns a JWT token with a payload of {name: "John Doe"}  no matter what the request
+            c.mockRespond({ json: function(){return {token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9obiBEb2UifQ.xuEv8qrfXu424LZk8bVgr9MQJUIrp1rHcPyZw_KSsds'};}});
+        });
+
         ng.bootstrap(rootComponent, [ng.Title, ngRouter.ROUTER_PROVIDERS, ngHttp.BaseRequestOptions, ngCore.provide(ngRouter.APP_BASE_HREF, {useValue:'/'}),
         ngCore.provide(ngHttp.Http, {useFactory:
-	      function(defaultOptions) {
-	        return new ngHttp.Http(backEnd, defaultOptions);
-	      },
+            function(defaultOptions) {
+                return new ngHttp.Http(backEnd, defaultOptions);
+            },
             deps: [ngHttp.BaseRequestOptions]}),
+        ngCore.provide(jwt.JwtHelper, {useFactory:
+            function() {
+                return new jwt.JwtHelper();
+            }}
+        ),
         satellizer.SATELLIZER_PROVIDERS({providers: {google: {clientId: GOOGLE_CLIENT_ID}}}),
         ngCore.provide(jwt.AuthHttp, {
         useFactory: (auth, config) => {
