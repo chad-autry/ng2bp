@@ -9,7 +9,7 @@ module.exports = ngCore
         template: `
         <div class="container">
 <div class="jumbotron" (click)="auth.logout(); router.navigate(['Login']);">
-  <h1 class="text-center">Click me to log out (I'm a great big fat fake button)</h1>
+  <h1 class="text-center">Click me to log out</h1>
 </div>
 </div>`
      })

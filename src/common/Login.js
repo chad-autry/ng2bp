@@ -12,7 +12,7 @@ module.exports = ngCore
     <div class="center-form panel">
         <div class="panel-body">
             <h2 class="text-center">Log in</h2>
-
+            <h6 class="text-center">ng2bp has a mock backend which is hard coded to log you in as 'John Doe'</h6>
             <form (ngSubmit)="login()" [ngFormModel]="form" #f="ngForm">
                 <div class="form-group has-feedback" [class.has-error]="f.form.controls.email.dirty && !f.form.controls.email.valid">
                     <input type="text" ngControl="email" class="form-control input-lg" [(ngModel)]="user.email" placeholder="Email" autofocus>
