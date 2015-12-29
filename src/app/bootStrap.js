@@ -25,7 +25,8 @@ var ng = require('angular2/platform/browser'),
             c.mockRespond({ json: function(){return {token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9obiBEb2UifQ.xuEv8qrfXu424LZk8bVgr9MQJUIrp1rHcPyZw_KSsds'};}});
         });
 
-        ng.bootstrap(rootComponent, [ng.Title, ngRouter.ROUTER_PROVIDERS, ngHttp.BaseRequestOptions, ngCore.provide(ngRouter.APP_BASE_HREF, {useValue:'/'}),
+        ng.bootstrap(rootComponent, [ng.Title, ngRouter.ROUTER_PROVIDERS, ngHttp.BaseRequestOptions,
+        ngCore.provide(ngRouter.LocationStrategy, {useClass:ngRouter.HashLocationStrategy}),
         ngCore.provide(ngHttp.Http, {useFactory:
             function(defaultOptions) {
                 return new ngHttp.Http(backEnd, defaultOptions);
@@ -38,13 +39,13 @@ var ng = require('angular2/platform/browser'),
         ),
         satellizer.SATELLIZER_PROVIDERS({providers: {google: {clientId: GOOGLE_CLIENT_ID}}}),
         ngCore.provide(jwt.AuthHttp, {
-        useFactory: (auth, config) => {
-            return new jwt.AuthHttp({
-                tokenName: config.tokenName,
-                tokenGetter: () => auth.getToken(),
-            });
-        },
-        deps: [satellizer.Auth, satellizer.Config]
+            useFactory: (auth, config) => {
+                return new jwt.AuthHttp({
+                    tokenName: config.tokenName,
+                    tokenGetter: () => auth.getToken(),
+                });
+            },
+            deps: [satellizer.Auth, satellizer.Config]
         })
       ]);
     });
