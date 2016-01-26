@@ -5,16 +5,14 @@ var ngCore = require('angular2/core'),
     lazyLoadDemoComponent = require('./lazyLoadDemo/lazyLoadDemo.js'),
     footerComponent = require('./footer/footer.js'),
     userManagementComponent = require('./userManagement/userManagement.js'),
-    loginComponent = require('../common/Login.js');
+    loginComponent = require('../common/Login.js'),
+    appHtml = require('./app.html');
 
 module.exports = ngCore
     .Component({
         selector: 'my-app',
         directives: [navbarComponent, footerComponent, ngRouter.ROUTER_DIRECTIVES],
-        template: `
-    <app-navbar></app-navbar>
-    <router-outlet></router-outlet>
-    <app-footer></app-footer>`
+        template: appHtml
      })
     .Class({
         constructor: [ngRouter.Router, function( router) {

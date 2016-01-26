@@ -1,15 +1,11 @@
 var ngCore = require('angular2/core'),
-    ngBrowser = require('angular2/platform/browser');
+    ngBrowser = require('angular2/platform/browser'),
+    lazyLoadDemoHtml = require('./lazyLoadDemo.html');
 
 module.exports = ngCore
     .Component({
         selector: 'app-about',
-        template: `
-        <div class="container">
-<div class="jumbotron">
-  <h1>Going to put some more routing examples on this page</h1>
-</div>
-        </div>`
+        template: lazyLoadDemoHtml
      })
     .Class({
         constructor: [ngBrowser.Title, function( title) {
