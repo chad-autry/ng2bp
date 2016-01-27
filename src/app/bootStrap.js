@@ -42,7 +42,7 @@ var ng = require('angular2/platform/browser'),
             useFactory: function(auth, config) {
                 return new jwt.AuthHttp({
                     tokenName: config.tokenName,
-                    tokenGetter: function() { auth.getToken()},
+                    tokenGetter: function() { auth.getToken();}
                 });
             },
             deps: [satellizer.Auth, satellizer.Config]
