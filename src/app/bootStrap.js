@@ -37,7 +37,7 @@ var ng = require('angular2/platform/browser'),
                 return new jwt.JwtHelper();
             }}
         ),
-        satellizer.SATELLIZER_PROVIDERS({providers: {google: {clientId: GOOGLE_CLIENT_ID}}}),
+        satellizer.NG2_UI_AUTH_PROVIDERS({providers: {google: {clientId: GOOGLE_CLIENT_ID}}}),
         ngCore.provide(jwt.AuthHttp, {
             useFactory: function(auth, config) {
                 return new jwt.AuthHttp({
