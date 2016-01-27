@@ -20,7 +20,7 @@ var ng = require('angular2/platform/browser'),
 (function() {
     document.addEventListener('DOMContentLoaded', function() {
         var backEnd = new ngTesting.MockBackend();
-        backEnd.connections.subscribe((c) => {
+        backEnd.connections.subscribe(function(c) {
             //Our mock backend service returns a JWT token with a payload of {name: "John Doe"}  no matter what the request
             c.mockRespond({ json: function(){return {token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSm9obiBEb2UifQ.xuEv8qrfXu424LZk8bVgr9MQJUIrp1rHcPyZw_KSsds'};}});
         });
@@ -39,10 +39,10 @@ var ng = require('angular2/platform/browser'),
         ),
         satellizer.SATELLIZER_PROVIDERS({providers: {google: {clientId: GOOGLE_CLIENT_ID}}}),
         ngCore.provide(jwt.AuthHttp, {
-            useFactory: (auth, config) => {
+            useFactory: function(auth, config) {
                 return new jwt.AuthHttp({
                     tokenName: config.tokenName,
-                    tokenGetter: () => auth.getToken(),
+                    tokenGetter: function() { auth.getToken()},
                 });
             },
             deps: [satellizer.Auth, satellizer.Config]

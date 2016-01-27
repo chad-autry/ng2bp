@@ -13,16 +13,17 @@ module.exports = ngCore.Directive({
       ngCore.Renderer,
       ngRouter.Router,
       function(routerLinks,eleRef, renderer, router) {
+          var directive = this;
           //Get the routerLink from our query when it is presented. This should be called once
-          routerLinks.changes.subscribe((_) => {
-              this.routerLink = routerLinks.first;
+          routerLinks.changes.subscribe(function(_) {
+              directive.routerLink = routerLinks.first;
           });
           //Every time the route changes update elements class to add/remove the class provided
-          router.subscribe((_) => {
-            if (this.isRouteActive()) {
-                renderer.setElementClass(eleRef, this.linkActiveClass, true);
+          router.subscribe(function(_) {
+            if (directive.isRouteActive()) {
+                renderer.setElementClass(eleRef, directive.linkActiveClass, true);
             } else {
-                renderer.setElementClass(eleRef, this.linkActiveClass, false);
+                renderer.setElementClass(eleRef, directive.linkActiveClass, false);
             }
           });
       }],

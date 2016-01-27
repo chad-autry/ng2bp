@@ -4,8 +4,10 @@
   "description": "The client for the hexagonal space tactical space game platform",
   "scripts": {
     "build": "mkdirp ./target/webapp && npm run less && npm run copy:HTML && npm run copy:polyfill && browserify ./src/app/bootStrap.js --debug -o ./target/webapp/bundle.js",
+    "build:min": "mkdirp ./target/webapp && npm run less && npm run copy:HTML && npm run copy:polyfill && browserify ./src/app/bootStrap.js --debug -o ./target/pre-minify-bundle.js && npm run uglify",
     "jshint": "jshint ./src",
     "clean": "rimraf ./target",
+    "uglify": "uglifyjs ./target/pre-minify-bundle.js --source-map ./target/webapp/source.js.map -c -o ./target/webapp/bundle.js",
     "copy:HTML": "copyfiles -f ./src/index.html ./target/webapp",
     "copy:polyfill": "copyfiles -f ./node_modules/angular2/bundles/angular2-polyfills.js ./target/webapp",
     "less": "lessc ./src/less/main.less > ./target/webapp/styles.css",
@@ -42,7 +44,8 @@
     "reflect-metadata": "0.1.2",
     "rimraf": "2.5.1",
     "rxjs": "5.0.0-beta.0",
-    "zone.js": "0.5.10"
+    "zone.js": "0.5.10",
+    "uglify-js": "2.6.1"
   },
   "jshintConfig": {
     "node": "true",
