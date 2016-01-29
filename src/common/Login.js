@@ -36,7 +36,7 @@ module.exports = ngCore
                    var component = this;
                    this.auth.login(this.user)
                    .subscribe(
-                       component.goToMain.call(component),
+                       function(){component.goToMain.call(component);},
                        this.handleError
                    );
         },
@@ -44,7 +44,7 @@ module.exports = ngCore
             var component = this;
             this.auth.authenticate(provider)
             .subscribe(
-               component.goToMain.call(component),
+               function(){component.goToMain.call(component);},
                this.handleError
             );
         },
