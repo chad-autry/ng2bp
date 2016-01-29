@@ -33,16 +33,18 @@ module.exports = ngCore
         },
         form: ngCommon.ControlGroup,
         login: function () {
+                   var component = this;
                    this.auth.login(this.user)
                    .subscribe(
-                       () => this.goToMain(),
+                       component.goToMain.call(component),
                        this.handleError
                    );
         },
         authenticate: function (provider) {
+            var component = this;
             this.auth.authenticate(provider)
             .subscribe(
-               () => this.goToMain(),
+               component.goToMain.call(component),
                this.handleError
             );
         },
