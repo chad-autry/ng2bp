@@ -1,4 +1,5 @@
-# [ng2bp](https://github.com/chad-autry/ng2bp) [![Build Status](https://travis-ci.org/chad-autry/ng2bp.svg)](https://travis-ci.org/chad-autry/ng2bp)
+# DEPRECATED
+# I have decided not to pursue pure JS Angular 2 (Or any Angular 2), this project is outdated, stuck on an early beta of ng2, and should likely not be used.
 
 An opinionated kickstarter for [AngularJS 2](https://angular.io/) projects.
 
