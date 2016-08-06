@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backends>
+  <backend name="frequency-processing-backend">
+  <class>B1</class>
+  <options>
+    <public>true</public>
+  </options>
+  </backend>
+</backends>
