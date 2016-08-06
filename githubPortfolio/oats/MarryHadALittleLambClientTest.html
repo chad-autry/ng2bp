@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<meta charset=utf-8>
+<html>
+	<head>
+		<script src="e:/riffwave.js"></script>
+		<script type="text/javascript">
+			function play() {
+				var samples = [];
+				document.getElementById('display').innerHTML = samples;
+				var samplesPerSecond = 44100; //(44.1 KHz)
+				var frequencies = [196,220,246.94,293.66];
+				var data = [];
+				var text = document.getElementById('tone0text').value;
+				data.push(text.split(','));
+				text = document.getElementById('tone1text').value;
+				data.push(text.split(','));
+				text = document.getElementById('tone2text').value;
+				data.push(text.split(','));
+				text = document.getElementById('tone3text').value;
+				data.push(text.split(','));
+
+				var sineNormalizer=1;
+				for (var i=0; data.length > 0; i++) { // fills array with samples
+					var time = i/samplesPerSecond; //position in seconds
+					samples[i]=0;//We are producing another sample
+					for (var j=data.length - 1; j >= 0; j--) { //Go backwards through the frequency lines
+						//Add to the sample
+
+						samples[i] = samples[i] + data[j][0]*Math.sin(frequencies[j]*2*Math.PI*time);
+						//save if biggest
+						if(Math.abs(samples[i]) > sineNormalizer) {
+							sineNormalizer = Math.abs(samples[i]);
+						}
+
+						//Advance the data
+						if (time*1000 >= data[j][1]) { //If this was the final sample at this magnitude
+							data[j].splice(0,2); //cycle to the next magnitude and duration
+							if (data[j].length == 0) { //If there is no more data, remove the frequency line
+								data.splice(j,1);
+								frequencies.splice(j,1);
+							}
+						}
+
+					}
+			  	}
+
+			  	//Normalize the samples to be between 0 and 255
+
+			  	for (var i=0; i < samples.length; i++) {
+			  		samples[i] = 128+Math.round(127*(samples[i]/sineNormalizer));
+			  	}
+
+				var wave = new RIFFWAVE();          // Create raw wav file
+				wave.header.sampleRate = samplesPerSecond; // 44.1Khz (1 second)
+				wave.header.numChannels = 1;    // 1 channel (mono)
+				wave.Make(samples);
+
+				var audio = new Audio();    // Create <audio> tag
+				audio.src=wave.dataURI;
+				audio.play();
+				//document.getElementById('display').innerHTML = samples;
+			}
+
+			function redrawAll()
+			{
+				for (var i=0; i<4; i++) {
+					var text = document.getElementById('tone'+i+'text').value;
+					var data = text.split(',');
+
+					var canvas = document.getElementById('tone'+i+'canvas');
+					canvas.height = parseFloat(document.getElementById("ppp").value)*100;
+					canvas.width = parseFloat(document.getElementById("pps").value)*Math.ceil(data[data.length-1]/1000);
+					canvas.styleborder='border:1px solid';
+					var b_context = canvas.getContext("2d");
+					//b_context.fillRect(0, 0, 300, 300);
+					var previousEndPixel = -1;
+					for (var j=0; j<data.length; j=j+2) {
+						var startPixel = previousEndPixel + 1;//drawingData[0]*parseFloat(document.getElementById("pps").value)/1000;
+						var barHeight = data[j]*parseFloat(document.getElementById("ppp").value);
+						var endPixel = Math.floor(data[j+1]*parseFloat(document.getElementById("pps").value)/1000);
+						//b_context.fillRect(0, 0, 5, 5);
+						//b_context.fillRect(0, canvas.height-5, canvas.width, 5);
+						var width = endPixel - startPixel + 1;
+						b_context.fillRect(startPixel, canvas.height - barHeight, width, canvas.height);
+						previousEndPixel = endPixel;
+					}
+ 				}
+			}
+
+			function remove(id)
+			{
+				var element = document.getElementById(id);
+				element.parentNode.removeChild(element);
+			}
+		</script>
+	</head>
+	<body onload='redrawAll()'>
+		<button onclick="redrawAll()">Redraw</button>
+		<br/>
+		<input type="text" size="4" id="pps" value="10"><label for="hz">Pixels Per Second</label>
+		<br/>
+    	<input type="text" size="4" id="ppp" value="1"><label for="hz">Pixels Per Percent</label>
+    	<br/>
+    	<button onclick="play()">Play</button>
+		<br/><br/>
+		<div id="tone0div">
+			<div>
+				<canvas id="tone0canvas">
+			</div>
+			<input type="text" id="tone0text" style="width:100%" value="0,2000,100,3000,0,18000,100,19000,0,28000,100,32000">
+			<input type="text" id="tone0frequency" size="4" value="392">
+		</div>
+		<br/><br/>
+		<div id="tone1div">
+			<div>
+				<canvas id="tone1canvas">
+			</div>
+			<input type="text" id="tone1text" style="width:100%" value="0,1000,100,2000,0,3000,100,4000,0,8000,100,8900,0,9000,100,9900,0,10000,100,12000,0,17000,100,18000,0,19000,100,20000,0,24000,100,24900,0,25000,100,25900,0,27000,100,28000">
+			<input type="text" id="tone1frequency" size="4" value="440">
+		</div>
+		<br/><br/>
+		<div id="tone2div">
+			<div>
+				<canvas id="tone2canvas">
+			</div>
+			<input type="text" id="tone2text" style="width:100%" value="100,1000,0,4000,100,4900,0,5000,100,5900,0,6000,100,8000,0,12000,100,13000,0,16000,100,17000,0,20000,100,20900,0,21000,100,21900,0,22000,100,22900,0,23000,100,23900,0,26000,100,27000">
+			<input type="text" id="tone2frequency" size="4" value="493.88">
+		</div>
+		<br/><br/>
+		<div id="tone3div">
+			<div>
+				<canvas id="tone3canvas">
+			</div>
+			<input type="text" id="tone3text" style="width:100%" value="0,13000,100,13900,0,14000,100,16000">
+			<input type="text" id="tone3frequency" size="4" value="587.33">
+		</div>
+		<div id="display"/>
+	</body>
+</html>
